@@ -70,16 +70,6 @@ body {
   }
 }
 
-// Ensure content is visible
-main {
-  display: block !important;
-  
-  .page-content {
-    display: block !important;
-    visibility: visible !important;
-  }
-}
-
 // Headings - Clean Typography
 h1, h2, h3, h4, h5, h6 {
   color: $text-dark;
