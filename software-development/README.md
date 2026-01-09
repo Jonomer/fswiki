@@ -1,19 +1,17 @@
-# Yazılım Geliştirme / Software Development
-
-Modern yazılım geliştirme pratikleri, mimari desenler, best practices ve araçlar hakkında içerikler.
+# Software Development
 
 Content on modern software development practices, architectural patterns, best practices, and tools.
 
-## 📂 Klasör Yapısı / Folder Structure
+## 📂 Folder Structure
 
-### Mimari / Architecture
+### Architecture
 - Software architecture patterns
 - Design principles (SOLID, DRY, KISS)
 - Microservices vs Monolith
 - Event-driven architecture
 - Distributed systems design
 
-### Best Practices / En İyi Uygulamalar
+### Best Practices
 - Code quality standards
 - Naming conventions
 - Documentation practices
@@ -21,64 +19,63 @@ Content on modern software development practices, architectural patterns, best p
 - Git workflow best practices
 
 ### DevOps
-- CI/CD pipeline kurulumu
+- CI/CD pipeline setup
 - Infrastructure as Code
 - Container orchestration
-- Monitoring ve logging
+- Monitoring and logging
 - Deployment strategies
 
-### Performans / Performance
+### Performance
 - Performance optimization techniques
-- Profiling ve benchmarking
+- Profiling and benchmarking
 - Caching strategies
 - Database optimization
 - Load testing
 
-### Test / Testing
+### Testing
 - Unit testing methodologies
 - Integration testing
 - E2E testing strategies
 - Test automation
-- TDD ve BDD practices
+- TDD and BDD practices
 
-## 🎯 Odak Alanları / Focus Areas
+## 🎯 Focus Areas
 
-### Pratik Odaklı İçerik
-- Gerçek proje örnekleri
-- Common pitfalls ve çözümleri
+### Practical Content
+- Real project examples
+- Common pitfalls and solutions
 - Troubleshooting guides
 - Migration strategies
 
-### Araç ve Teknolojiler
-- Modern framework karşılaştırmaları
+### Tools and Technologies
+- Modern framework comparisons
 - Tool selection criteria
-- Setup ve configuration guides
+- Setup and configuration guides
 - Best practices per tool
 
-## 📝 İçerik Standartları / Content Standards
+## 📝 Content Standards
 
-Her makale:
-- Çalışan kod örnekleri içermelidir
-- Gerçek dünya senaryolarına dayanmalıdır
-- Trade-off'ları açıklamalıdır
-- Kaynak ve referanslar içermelidir
+Each article should:
+- Include working code examples
+- Be based on real-world scenarios
+- Explain trade-offs
+- Include sources and references
 
-Detaylı standartlar için [STYLE_GUIDE.md](../STYLE_GUIDE.md) dosyasına bakın.
+See [STYLE_GUIDE.md](../STYLE_GUIDE.md) for detailed standards.
 
-## 🔗 İlgili Kategoriler / Related Categories
+## 🔗 Related Categories
 
-- [Linux & Sistem Yönetimi](../linux-sysadmin/) - Infrastructure ve deployment
-- [Siber Güvenlik](../cybersecurity/) - Secure coding practices
+- [Linux & System Administration](../linux-sysadmin/) - Infrastructure and deployment
+- [Cybersecurity](../cybersecurity/) - Secure coding practices
 
-## 🤝 Katkıda Bulunma / Contributing
+## 🤝 Contributing
 
-Yeni içerik eklerken:
-1. Kod örneklerinin çalışır durumda olduğundan emin olun
-2. Farklı dil/framework versiyonlarını belirtin
-3. Performance implications'i açıklayın
-4. Security considerations ekleyin
+When adding new content:
+1. Make sure code examples work
+2. Specify different language/framework versions
+3. Explain performance implications
+4. Add security considerations
 
 ---
 
-**Not:** Tüm kod örnekleri eğitim amaçlıdır. Production kullanımı için ek güvenlik kontrolleri gereklidir.
-
+**Note:** All code examples are for educational purposes. Additional security checks are required for production use.

@@ -1,54 +1,49 @@
-# Kaynaklar / Resources
-
-Ek kaynaklar, araçlar, referanslar ve şablonlar.
+# Resources
 
 Additional resources, tools, references, and templates.
 
-## 📂 Klasör Yapısı / Folder Structure
+## 📂 Folder Structure
 
-### Araçlar / Tools
-- Önerilen yazılım araçları
-- Online araçlar
+### Tools
+- Recommended software tools
+- Online tools
 - Command-line utilities
 - Browser extensions (developer tools)
 
-### Referanslar / References
-- Standart referanslar (RFC, ISO, vb.)
-- Teknik spesifikasyonlar
+### References
+- Standard references (RFC, ISO, etc.)
+- Technical specifications
 - Whitepapers
-- Akademik kaynaklar
+- Academic resources
 
-### Kopya Kağıtları / Cheatsheets
-- Hızlı referans kılavuzları
-- Komut özetleri
+### Cheatsheets
+- Quick reference guides
+- Command summaries
 - Syntax quick references
-- Best practices özetleri
+- Best practices summaries
 
-### Şablonlar / Templates
-- Proje şablonları
-- Konfigürasyon şablonları
-- Dokümantasyon şablonları
+### Templates
+- Project templates
+- Configuration templates
+- Documentation templates
 - Code templates
 
-## 🎯 Kullanım / Usage
+## 🎯 Usage
 
-Bu kaynaklar:
-- Hızlı referans için
-- Yeni projeler için başlangıç noktası
-- Standardizasyon için
-- Eğitim materyali olarak
+These resources can be used for:
+- Quick reference
+- Starting point for new projects
+- Standardization
+- Educational material
 
-kullanılabilir.
+## 📝 Contributing
 
-## 📝 Katkıda Bulunma / Contributing
-
-Yeni kaynak eklerken:
-1. Lisans durumunu kontrol edin
-2. Son güncellenme tarihini belirtin
-3. Versiyon numarasını ekleyin (varsa)
-4. Kısa açıklama ekleyin
+When adding new resources:
+1. Check license status
+2. Specify last update date
+3. Add version number (if available)
+4. Add brief description
 
 ---
 
-**Not:** Tüm external kaynakların lisans durumlarına dikkat edin. Kopyalama yaparken attribution gerekebilir.
-
+**Note:** Pay attention to license statuses of all external resources. Attribution may be required when copying.

@@ -1,20 +1,20 @@
 ---
 layout: page
-title: FS Wiki
+title: ""
 permalink: /
 description: "Professional Technical Knowledge Base"
 ---
 
 <div align="center">
 
-# 🔍 FS Wiki
-
 **Professional Technical Knowledge Base**
 
 *A comprehensive, well-structured knowledge repository for cybersecurity, software development, system administration, hardware, and practical engineering.*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Jonomer/fswiki/blob/main/LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/Jonomer/fswiki/blob/main/CONTRIBUTING.md)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+
+**Links:** [License](https://github.com/Jonomer/fswiki/blob/main/LICENSE) | [Contributing](https://github.com/Jonomer/fswiki/blob/main/CONTRIBUTING.md)
 
 </div>
 

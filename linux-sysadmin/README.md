@@ -1,29 +1,27 @@
-# Linux & Sistem Yönetimi / Linux & System Administration
-
-Linux sistem yönetimi, konfigürasyon, otomasyon ve containerization konularında pratik rehberler.
+# Linux & System Administration
 
 Practical guides on Linux system administration, configuration, automation, and containerization.
 
-## 📂 Klasör Yapısı / Folder Structure
+## 📂 Folder Structure
 
-### Konfigürasyon / Configuration
-- Sistem konfigürasyon dosyaları
+### Configuration
+- System configuration files
 - Service management (systemd, init.d)
 - Network configuration
-- User ve permission management
-- Environment variables ve PATH
+- User and permission management
+- Environment variables and PATH
 
 ### Containerization
 - Docker fundamentals
-- Docker Compose kullanımı
-- Podman ve alternatifler
+- Docker Compose usage
+- Podman and alternatives
 - Container security
 - Multi-stage builds
 
-### Otomasyon / Automation
+### Automation
 - Shell scripting (bash, zsh)
 - Python automation scripts
-- Cron jobs ve task scheduling
+- Cron jobs and task scheduling
 - Configuration management (Ansible basics)
 - Backup automation
 
@@ -41,50 +39,49 @@ Practical guides on Linux system administration, configuration, automation, and 
 - SELinux/AppArmor basics
 - Security auditing tools
 
-## 🎯 Odak Alanları / Focus Areas
+## 🎯 Focus Areas
 
-### Pratik Senaryolar
-- Yaygın problemler ve çözümleri
+### Practical Scenarios
+- Common problems and solutions
 - Production-ready configurations
 - Troubleshooting workflows
 - Disaster recovery
 
-### Dağıtım Agnostik
-- Ubuntu/Debian örnekleri
-- RHEL/CentOS örnekleri
-- Arch Linux notları (gerekirse)
-- Distribution-agnostic çözümler
+### Distribution Agnostic
+- Ubuntu/Debian examples
+- RHEL/CentOS examples
+- Arch Linux notes (if needed)
+- Distribution-agnostic solutions
 
-## 📝 İçerik Standartları / Content Standards
+## 📝 Content Standards
 
-Her makale:
-- Belirli bir Linux dağıtımını belirtmelidir (veya dağıtım agnostik olmalıdır)
-- Komut çıktıları içermelidir
-- Güvenlik notları eklenmelidir
-- Backup önerileri içermelidir
+Each article should:
+- Specify a Linux distribution (or be distribution-agnostic)
+- Include command outputs
+- Add security notes
+- Include backup recommendations
 
-Detaylı standartlar için [STYLE_GUIDE.md](../STYLE_GUIDE.md) dosyasına bakın.
+See [STYLE_GUIDE.md](../STYLE_GUIDE.md) for detailed standards.
 
-## 🔗 İlgili Kategoriler / Related Categories
+## 🔗 Related Categories
 
-- [Siber Güvenlik](../cybersecurity/) - Security hardening
-- [Yazılım Geliştirme](../software-development/) - DevOps ve automation
+- [Cybersecurity](../cybersecurity/) - Security hardening
+- [Software Development](../software-development/) - DevOps and automation
 
-## ⚠️ Önemli Notlar / Important Notes
+## ⚠️ Important Notes
 
-- Tüm komutlar production sistemlerde test edilmelidir
-- Önemli değişiklikler öncesi backup alınmalıdır
-- Root yetkisi gerektiren komutlar için uyarılar eklenmelidir
+- All commands should be tested on production systems
+- Backups should be taken before important changes
+- Warnings should be added for commands requiring root privileges
 
-## 🤝 Katkıda Bulunma / Contributing
+## 🤝 Contributing
 
-Yeni içerik eklerken:
-1. Hangi Linux dağıtımı için olduğunu belirtin
-2. Komut çıktılarını gösterin
-3. Hata senaryolarını ele alın
-4. Güvenlik ve backup notları ekleyin
+When adding new content:
+1. Specify which Linux distribution it's for
+2. Show command outputs
+3. Address error scenarios
+4. Add security and backup notes
 
 ---
 
-**Unutmayın:** Sistem yönetimi komutları yanlış kullanıldığında veri kaybına neden olabilir. Test ortamında deneyin.
-
+**Remember:** System administration commands can cause data loss if used incorrectly. Test in a test environment.

@@ -1,91 +1,88 @@
-# 3D Baskı & Pratik Mühendislik / 3D Printing & Practical Engineering
-
-3D modelleme, baskı teknikleri, filament seçimi ve pratik mühendislik uygulamaları.
+# 3D Printing & Practical Engineering
 
 3D modeling, printing techniques, filament selection, and practical engineering applications.
 
-## 📂 Klasör Yapısı / Folder Structure
+## 📂 Folder Structure
 
-### Modelleme / Modeling
-- CAD software karşılaştırması
+### Modeling
+- CAD software comparison
 - 3D modeling best practices
 - Design for 3D printing (DFAM)
 - Mesh optimization
-- STL ve diğer formatlar
+- STL and other formats
 
-### Malzemeler / Materials
-- Filament türleri ve özellikleri
-- Filament seçim kriterleri
+### Materials
+- Filament types and properties
+- Filament selection criteria
 - Material properties comparison
-- Storage ve handling
+- Storage and handling
 - Specialty materials
 
-### Post-Processing / Son İşlem
-- Support removal teknikleri
+### Post-Processing
+- Support removal techniques
 - Surface finishing methods
-- Painting ve coloring
+- Painting and coloring
 - Chemical treatments
 - Mechanical post-processing
 
-### Mekanik Tasarım / Mechanical Design
-- Toleranslar ve fit
+### Mechanical Design
+- Tolerances and fit
 - Functional part design
-- Mechanical joints ve connections
+- Mechanical joints and connections
 - Load-bearing design
 - Wear parts design
 
-### Prototipleme / Prototyping
+### Prototyping
 - Rapid prototyping workflows
 - Iterative design process
 - Testing methodologies
 - Failure analysis
 - Optimization strategies
 
-## 🎯 Odak Alanları / Focus Areas
+## 🎯 Focus Areas
 
-### Pratik Uygulamalar
-- Yaygın problemler ve çözümleri
+### Practical Applications
+- Common problems and solutions
 - Print troubleshooting
 - Calibration guides
 - Maintenance procedures
 
-### Endüstriyel Uygulamalar
+### Industrial Applications
 - Production workflows
 - Quality control
 - Scaling considerations
 - Cost analysis
 
-## 📝 İçerik Standartları / Content Standards
+## 📝 Content Standards
 
-Her makale:
-- Printer modeli ve settings belirtilmelidir
-- Filament türü ve markası belirtilmelidir
-- Print parametreleri (temperature, speed, layer height) içermelidir
-- Görseller (before/after, process steps) eklenmelidir
+Each article should:
+- Specify printer model and settings
+- Specify filament type and brand
+- Include print parameters (temperature, speed, layer height)
+- Add images (before/after, process steps)
 
-Detaylı standartlar için [STYLE_GUIDE.md](../STYLE_GUIDE.md) dosyasına bakın.
+See [STYLE_GUIDE.md](../STYLE_GUIDE.md) for detailed standards.
 
-## 🔗 İlgili Kategoriler / Related Categories
+## 🔗 Related Categories
 
-- [Donanım & Elektronik](../hardware-electronics/) - Enclosure design, custom parts
-- [Yazılım Geliştirme](../software-development/) - 3D modeling automation
+- [Hardware & Electronics](../hardware-electronics/) - Enclosure design, custom parts
+- [Software Development](../software-development/) - 3D modeling automation
 
-## ⚠️ Önemli Notlar / Important Notes
+## ⚠️ Important Notes
 
-- Güvenlik: Yüksek sıcaklıklar ve kimyasallar için uyarılar
-- Ventilation gereksinimleri
-- Material safety data sheets (MSDS) referansları
+- Safety: Warnings for high temperatures and chemicals
+- Ventilation requirements
+- Material safety data sheets (MSDS) references
 
-## 🤝 Katkıda Bulunma / Contributing
+## 🤝 Contributing
 
-Yeni içerik eklerken:
-1. Kullanılan printer ve filament bilgilerini ekleyin
-2. Print settings'i detaylı belirtin
-3. Before/after görselleri ekleyin
-4. Troubleshooting bölümü ekleyin
-5. Güvenlik notları ekleyin (özellikle kimyasallar için)
+When adding new content:
+1. Add printer and filament information used
+2. Specify print settings in detail
+3. Add before/after images
+4. Add troubleshooting section
+5. Add safety notes (especially for chemicals)
 
 ---
 
-**Güvenlik Uyarısı:** 3D printing sırasında yeterli havalandırma sağlayın. Bazı filamentler ve kimyasallar zararlı buharlar üretebilir.
-
+**Safety Warning:** Ensure adequate ventilation during 3D printing. Some filaments and chemicals can produce harmful vapors.

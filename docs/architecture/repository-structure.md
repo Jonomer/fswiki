@@ -1,22 +1,20 @@
-# Repository Yapısı / Repository Structure
+# Repository Structure
 
-FS DEV Knowledge Base projesinin detaylı klasör yapısı ve organizasyon prensipleri.
+Detailed folder structure and organization principles of the FS Wiki project.
 
-Detailed folder structure and organization principles of the FS DEV Knowledge Base project.
-
-## Genel Bakış / Overview
+## Overview
 
 ```
 fswiki/
-├── README.md                    # Ana proje dokümantasyonu
-├── CONTRIBUTING.md              # Katkı rehberi
-├── ROADMAP.md                   # Proje yol haritası
-├── STYLE_GUIDE.md              # Yazım standartları
-├── CODE_OF_CONDUCT.md          # Davranış kuralları
-├── LICENSE                      # MIT Lisansı
-├── .gitignore                   # Git ignore kuralları
+├── README.md                    # Main project documentation
+├── CONTRIBUTING.md              # Contribution guide
+├── ROADMAP.md                   # Project roadmap
+├── STYLE_GUIDE.md              # Writing standards
+├── CODE_OF_CONDUCT.md          # Code of conduct
+├── LICENSE                      # MIT License
+├── .gitignore                   # Git ignore rules
 │
-├── cybersecurity/               # Siber Güvenlik
+├── cybersecurity/               # Cybersecurity
 │   ├── README.md
 │   ├── defensive-security/
 │   ├── ethical-hacking/
@@ -24,7 +22,7 @@ fswiki/
 │   ├── vulnerability-assessment/
 │   └── incident-response/
 │
-├── software-development/        # Yazılım Geliştirme
+├── software-development/        # Software Development
 │   ├── README.md
 │   ├── architecture/
 │   ├── best-practices/
@@ -32,7 +30,7 @@ fswiki/
 │   ├── performance/
 │   └── testing/
 │
-├── linux-sysadmin/             # Linux & Sistem Yönetimi
+├── linux-sysadmin/             # Linux & System Administration
 │   ├── README.md
 │   ├── configuration/
 │   ├── containerization/
@@ -40,7 +38,7 @@ fswiki/
 │   ├── monitoring/
 │   └── security-hardening/
 │
-├── hardware-electronics/       # Donanım & Elektronik
+├── hardware-electronics/       # Hardware & Electronics
 │   ├── README.md
 │   ├── embedded-systems/
 │   ├── microcontrollers/
@@ -48,7 +46,7 @@ fswiki/
 │   ├── hardware-security/
 │   └── iot/
 │
-├── 3d-printing/                # 3D Baskı & Mühendislik
+├── 3d-printing/                # 3D Printing & Engineering
 │   ├── README.md
 │   ├── modeling/
 │   ├── materials/
@@ -56,122 +54,122 @@ fswiki/
 │   ├── mechanical-design/
 │   └── prototyping/
 │
-├── resources/                  # Ek Kaynaklar
+├── resources/                  # Additional Resources
 │   ├── README.md
 │   ├── tools/
 │   ├── references/
 │   ├── cheatsheets/
 │   └── templates/
 │
-├── docs/                       # Proje Dokümantasyonu
+├── docs/                       # Project Documentation
 │   ├── architecture/
-│   │   └── repository-structure.md (bu dosya)
+│   │   └── repository-structure.md (this file)
 │   ├── guidelines/
 │   └── templates/
 │       ├── article-template.md
 │       └── cybersecurity-article-template.md
 │
-└── assets/                     # Medya Dosyaları
+└── assets/                     # Media Files
     └── images/
 ```
 
-## Organizasyon Prensipleri / Organization Principles
+## Organization Principles
 
-### 1. Kategorizasyon / Categorization
+### 1. Categorization
 
-Her ana kategori:
-- Tek bir konu alanını kapsar
-- Kendi README.md dosyasına sahiptir
-- Mantıklı alt kategorilere bölünmüştür
+Each main category:
+- Covers a single topic area
+- Has its own README.md file
+- Is divided into logical subcategories
 
-### 2. Hiyerarşi / Hierarchy
+### 2. Hierarchy
 
 ```
-Kategori (Category)
-  └── Alt Kategori (Sub-category)
-      └── Makale (Article)
+Category
+  └── Sub-category
+      └── Article
 ```
 
-### 3. Dosya İsimlendirme / File Naming
+### 3. File Naming
 
-- Küçük harf kullanımı
-- Kebab-case formatı
-- Açıklayıcı isimler
-- Türkçe karakter yok
+- Use lowercase
+- Kebab-case format
+- Descriptive names
+- No Turkish characters
 
-Örnekler:
+Examples:
 - ✅ `network-segmentation-guide.md`
 - ✅ `docker-container-security.md`
 - ❌ `Network_Segmentation.md`
 - ❌ `docker container guide.md`
 
-## İçerik Organizasyonu / Content Organization
+## Content Organization
 
-### Makale Yerleştirme / Article Placement
+### Article Placement
 
-**Kural:** Her makale en spesifik uygun alt kategoriye yerleştirilir.
+**Rule:** Each article is placed in the most specific appropriate subcategory.
 
-Örnek:
+Example:
 - "Docker Security Best Practices" → `linux-sysadmin/containerization/`
 - "Network Segmentation for Security" → `cybersecurity/defensive-security/`
 - "3D Printed Enclosure for Raspberry Pi" → `3d-printing/mechanical-design/`
 
 ### Cross-Referencing
 
-İlgili içerikler:
-- İlgili makaleler bölümünde linklenir
-- Her kategori README'sinde ilgili kategoriler belirtilir
+Related content:
+- Linked in related articles section
+- Related categories specified in each category README
 
-## Dosya Türleri / File Types
+## File Types
 
-### Markdown Dosyaları (.md)
+### Markdown Files (.md)
 
-- Makaleler
-- README dosyaları
-- Dokümantasyon
+- Articles
+- README files
+- Documentation
 
-### Diğer Dosyalar
+### Other Files
 
-- **Görseller:** `assets/images/` klasöründe
-- **Şablonlar:** `resources/templates/` veya `docs/templates/`
-- **Konfigürasyon:** Root dizinde (`.gitignore`, vb.)
+- **Images:** In `assets/images/` folder
+- **Templates:** In `resources/templates/` or `docs/templates/`
+- **Configuration:** In root directory (`.gitignore`, etc.)
 
-## Genişletilebilirlik / Scalability
+## Scalability
 
-### Yeni Kategori Ekleme
+### Adding New Category
 
-Yeni kategori eklerken:
-1. Ana dizinde klasör oluştur
-2. `README.md` ekle (kategori açıklaması ile)
-3. Ana `README.md`'yi güncelle
-4. İlgili alt kategorileri oluştur
+When adding a new category:
+1. Create folder in root directory
+2. Add `README.md` (with category description)
+3. Update main `README.md`
+4. Create relevant subcategories
 
-### Yeni Alt Kategori Ekleme
+### Adding New Subcategory
 
-Yeni alt kategori eklerken:
-1. İlgili kategori klasöründe alt klasör oluştur
-2. Kategori `README.md`'sini güncelle
-3. İlgili makaleleri taşı/ekle
+When adding a new subcategory:
+1. Create subfolder in relevant category folder
+2. Update category `README.md`
+3. Move/add relevant articles
 
-## Bakım Notları / Maintenance Notes
+## Maintenance Notes
 
-### Düzenli Görevler
+### Regular Tasks
 
-1. **Broken Link Kontrolü:**
-   - İç linkler çalışıyor mu?
-   - Dış linkler aktif mi?
+1. **Broken Link Check:**
+   - Are internal links working?
+   - Are external links active?
 
-2. **Organizasyon Review:**
-   - Makaleler doğru yerde mi?
-   - Yeni alt kategori gerekli mi?
+2. **Organization Review:**
+   - Are articles in the right place?
+   - Is a new subcategory needed?
 
-3. **README Güncellemeleri:**
-   - Kategori README'leri güncel mi?
-   - İçerik listesi doğru mu?
+3. **README Updates:**
+   - Are category READMEs up to date?
+   - Is content list correct?
 
-## Örnek Yapılandırma / Example Structure
+## Example Structure
 
-### Senaryo: Network Security Kategorisi
+### Scenario: Network Security Category
 
 ```
 cybersecurity/
@@ -185,12 +183,11 @@ cybersecurity/
 │   └── ...
 ```
 
-Her makale:
-- Spesifik bir konuyu kapsar
-- Uygun uzunlukta (500-3000 kelime)
-- İlgili makalelere linklenir
+Each article:
+- Covers a specific topic
+- Appropriate length (500-3000 words)
+- Linked to related articles
 
 ---
 
-**Son Güncelleme / Last Updated:** 2024 Q1
-
+**Last Updated:** 2024 Q1

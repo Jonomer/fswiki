@@ -1,91 +1,90 @@
-# [Makale Başlığı / Article Title]
+# [Article Title]
 
-## Özet / Summary
+## Summary
 
-[2-3 cümlelik kısa açıklama. Bu makale ne hakkında? Hangi problemi çözüyor?]
+[2-3 sentence brief description. What is this article about? What problem does it solve?]
 
-## Gereksinimler / Prerequisites
+## Prerequisites
 
-- [Gerekli bilgi seviyesi veya ön koşul bilgiler]
-- [Gerekli araçlar veya yazılımlar]
-- [Diğer ön koşullar]
+- [Required knowledge level or prerequisite information]
+- [Required tools or software]
+- [Other prerequisites]
 
-## İçerik / Content
+## Content
 
-### Alt Başlık 1 / Subheading 1
+### Subheading 1
 
-[Ana içerik buraya...]
+[Main content here...]
 
-### Alt Başlık 2 / Subheading 2
+### Subheading 2
 
-[Devam eden içerik...]
+[Continuing content...]
 
-#### Alt Alt Başlık / Sub-subheading (gerekirse)
+#### Sub-subheading (if needed)
 
-[Daha detaylı açıklamalar...]
+[More detailed explanations...]
 
-## Örnekler / Examples
+## Examples
 
-### Örnek 1 / Example 1
+### Example 1
 
 ```language
-// Kod örneği buraya
+// Code example here
 ```
 
-**Açıklama / Explanation:**
-[Kod örneğinin açıklaması]
+**Explanation:**
+[Explanation of the code example]
 
-### Örnek 2 / Example 2
+### Example 2
 
-[Başka bir örnek veya senaryo...]
+[Another example or scenario...]
 
-## Sorun Giderme / Troubleshooting
+## Troubleshooting
 
-### Yaygın Hata 1 / Common Error 1
+### Common Error 1
 
-**Hata Mesajı / Error Message:**
+**Error Message:**
 ```
 error message here
 ```
 
-**Çözüm / Solution:**
-[Açıklama ve çözüm adımları]
+**Solution:**
+[Description and solution steps]
 
-### Yaygın Hata 2 / Common Error 2
+### Common Error 2
 
-[Diğer yaygın sorunlar...]
+[Other common issues...]
 
-## Best Practices / En İyi Uygulamalar
+## Best Practices
 
 - [Best practice 1]
 - [Best practice 2]
 - [Best practice 3]
 
-## Güvenlik Notları / Security Notes
+## Security Notes
 
-> **⚠️ Güvenlik Uyarısı / Security Warning**
+> **⚠️ Security Warning**
 > 
-> [Güvenlikle ilgili önemli notlar, özellikle siber güvenlik içerikleri için]
+> [Important security-related notes, especially for cybersecurity content]
 
-## Sonuç / Conclusion
+## Conclusion
 
-[Özet ve sonraki adımlar. Bu makaleden ne öğrenildi? İlgili konular?]
+[Summary and next steps. What was learned from this article? Related topics?]
 
-## Kaynaklar / References
+## References
 
-- [Kaynak 1 Başlığı](https://example.com) - Kısa açıklama
-- [Kaynak 2 Başlığı](https://example.com) - Kısa açıklama
-- [Dokümantasyon Linki](https://docs.example.com)
+- [Reference 1 Title](https://example.com) - Brief description
+- [Reference 2 Title](https://example.com) - Brief description
+- [Documentation Link](https://docs.example.com)
 
-## İlgili Makaleler / Related Articles
+## Related Articles
 
-- [İlgili Makale 1](../path/to/article.md)
-- [İlgili Makale 2](../path/to/article.md)
-- [İlgili Makale 3](../path/to/article.md)
+- [Related Article 1](../path/to/article.md)
+- [Related Article 2](../path/to/article.md)
+- [Related Article 3](../path/to/article.md)
 
 ---
 
-**Son Güncelleme / Last Updated:** [Tarih / Date]
+**Last Updated:** [Date]
 
-**Yazar / Author:** [Opsiyonel / Optional]
-
+**Author:** [Optional]

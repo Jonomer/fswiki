@@ -1,160 +1,159 @@
-# [Makale Başlığı / Article Title]
+# [Article Title]
 
-## ⚠️ ETİK VE YASAL UYARI / ETHICAL AND LEGAL WARNING
+## ⚠️ ETHICAL AND LEGAL WARNING
 
-> **KRİTİK UYARI / CRITICAL WARNING**
+> **CRITICAL WARNING**
 > 
-> Bu içerik **sadece eğitim, araştırma ve yasal savunma amaçlı** kullanım için hazırlanmıştır.
+> This content is intended **solely for educational, research, and legal defensive purposes**.
 > 
-> **ÖNEMLİ / IMPORTANT:**
-> - Bu teknikleri sadece **sahip olduğunuz sistemlerde** veya **açık izin verilen sistemlerde** kullanın
-> - **Yetkisiz erişim yasadışıdır** ve cezai sorumluluk doğurabilir
-> - Etik hackleme için mutlaka **yazılı izin** (penetration testing contract) alın
-> - Bu bilgileri **kötü niyetle kullanmayın**
+> **IMPORTANT:**
+> - Use these techniques only on **systems you own** or **systems with explicit permission**
+> - **Unauthorized access is illegal** and may result in criminal liability
+> - Always obtain **written permission** (penetration testing contract) for ethical hacking
+> - **Do not use this information maliciously**
 > 
-> **Yasal Sorumluluk Reddi / Legal Disclaimer:** Bu içeriği kullanarak yapılan herhangi bir eylemden proje sahipleri veya katkıda bulunanlar sorumlu tutulamaz. **Kendi sorumluluğunuz altında** kullanın.
+> **Legal Disclaimer:** Project owners or contributors cannot be held responsible for any actions taken using this content. **Use at your own responsibility**.
 
 ---
 
-## Özet / Summary
+## Summary
 
-[2-3 cümlelik kısa açıklama. Bu makale ne hakkında? Hangi savunma stratejisini anlatıyor?]
+[2-3 sentence brief description. What is this article about? What defense strategy does it explain?]
 
-## Gereksinimler / Prerequisites
+## Prerequisites
 
-- [Gerekli bilgi seviyesi]
-- [Gerekli araçlar veya yazılımlar]
-- [Ön koşul bilgiler]
-- **Yasal Yetki:** Bu teknikleri kullanmak için gerekli yasal yetki veya izin
+- [Required knowledge level]
+- [Required tools or software]
+- [Prerequisite information]
+- **Legal Authorization:** Required legal authorization or permission to use these techniques
 
-## İçerik / Content
+## Content
 
-### Teorik Temel / Theoretical Foundation
+### Theoretical Foundation
 
-[Konunun teorik temelleri...]
+[Theoretical foundations of the topic...]
 
-### Pratik Uygulama / Practical Application
+### Practical Application
 
-[Pratik uygulama adımları...]
+[Practical application steps...]
 
-#### Adım 1 / Step 1
-
-```bash
-# Komut örneği (sadece eğitim amaçlı)
-```
-
-**Açıklama / Explanation:**
-[Komutun ne yaptığı ve neden kullanıldığı]
-
-#### Adım 2 / Step 2
-
-[Devam eden adımlar...]
-
-## Senaryolar / Scenarios
-
-### Senaryo 1: [Açıklama] / Scenario 1: [Description]
-
-**Bağlam / Context:**
-[Senaryo açıklaması]
-
-**Uygulama / Implementation:**
-```bash
-# Komutlar veya kod
-```
-
-**Beklenen Sonuç / Expected Result:**
-[Ne olması gerektiği]
-
-### Senaryo 2: [Açıklama] / Scenario 2: [Description]
-
-[Diğer senaryolar...]
-
-## Savunma Stratejileri / Defensive Strategies
-
-### Önleme / Prevention
-
-- [Strateji 1]
-- [Strateji 2]
-- [Strateji 3]
-
-### Tespit / Detection
-
-- [Tespit yöntemi 1]
-- [Tespit yöntemi 2]
-
-### Müdahale / Response
-
-- [Müdahale adımları]
-
-## Test Ortamı Kurulumu / Test Environment Setup
-
-> **UYARI / WARNING:** Bu bölüm sadece **kendi kontrolünüzdeki** test ortamları için geçerlidir.
+#### Step 1
 
 ```bash
-# Test ortamı kurulum komutları
+# Command example (for educational purposes only)
 ```
 
-**Önemli Notlar / Important Notes:**
-- [Test ortamı gereksinimleri]
-- [İzolasyon önlemleri]
+**Explanation:**
+[What the command does and why it's used]
 
-## Yasal ve Etik Çerçeve / Legal and Ethical Framework
+#### Step 2
 
-### Yasal Gereksinimler / Legal Requirements
+[Continuing steps...]
 
-1. **Yazılı İzin / Written Permission:**
-   - Penetration testler için mutlaka sözleşme
-   - Scope of work belirlenmeli
-   - Raporlama gereksinimleri
+## Scenarios
 
-2. **Yasal Sınırlar / Legal Boundaries:**
-   - [Ülkeye özgü yasal notlar]
-   - [İlgili yasalar ve düzenlemeler]
+### Scenario 1: [Description]
 
-### Etik İlkeler / Ethical Principles
+**Context:**
+[Scenario description]
 
-- Sorumlu açıklama (responsible disclosure)
-- Minimum zarar prensibi
-- Gizlilik ve veri koruma
-- Profesyonel davranış
+**Implementation:**
+```bash
+# Commands or code
+```
 
-## Sorun Giderme / Troubleshooting
+**Expected Result:**
+[What should happen]
 
-### Yaygın Sorun 1 / Common Issue 1
+### Scenario 2: [Description]
 
-**Sorun / Issue:**
-[Açıklama]
+[Other scenarios...]
 
-**Çözüm / Solution:**
-[Adım adım çözüm]
+## Defensive Strategies
 
-## Best Practices / En İyi Uygulamalar
+### Prevention
+
+- [Strategy 1]
+- [Strategy 2]
+- [Strategy 3]
+
+### Detection
+
+- [Detection method 1]
+- [Detection method 2]
+
+### Response
+
+- [Response steps]
+
+## Test Environment Setup
+
+> **WARNING:** This section applies only to **test environments under your control**.
+
+```bash
+# Test environment setup commands
+```
+
+**Important Notes:**
+- [Test environment requirements]
+- [Isolation measures]
+
+## Legal and Ethical Framework
+
+### Legal Requirements
+
+1. **Written Permission:**
+   - Contract required for penetration tests
+   - Scope of work must be defined
+   - Reporting requirements
+
+2. **Legal Boundaries:**
+   - [Country-specific legal notes]
+   - [Relevant laws and regulations]
+
+### Ethical Principles
+
+- Responsible disclosure
+- Principle of minimum harm
+- Privacy and data protection
+- Professional conduct
+
+## Troubleshooting
+
+### Common Issue 1
+
+**Issue:**
+[Description]
+
+**Solution:**
+[Step-by-step solution]
+
+## Best Practices
 
 - [Best practice 1]
 - [Best practice 2]
 - [Best practice 3]
 
-## Sonuç / Conclusion
+## Conclusion
 
-[Özet ve önemli çıkarımlar. Defansif önlemlerin önemi vurgulanmalı.]
+[Summary and important takeaways. Importance of defensive measures should be emphasized.]
 
-## Kaynaklar / References
+## References
 
-- [Güvenlik Standartı veya Framework](https://example.com)
-- [Yasal Düzenleme veya Rehber](https://example.com)
-- [Teknik Dokümantasyon](https://docs.example.com)
-- [Etik Hackleme Standartları](https://example.com)
+- [Security Standard or Framework](https://example.com)
+- [Legal Regulation or Guide](https://example.com)
+- [Technical Documentation](https://docs.example.com)
+- [Ethical Hacking Standards](https://example.com)
 
-## İlgili Makaleler / Related Articles
+## Related Articles
 
-- [İlgili Defansif Makale](../path/to/article.md)
-- [İlgili Güvenlik Makalesi](../path/to/article.md)
+- [Related Defensive Article](../path/to/article.md)
+- [Related Security Article](../path/to/article.md)
 
 ---
 
-**Son Güncelleme / Last Updated:** [Tarih / Date]
+**Last Updated:** [Date]
 
-**Yasal Uyumluluk Notu / Legal Compliance Note:** Bu içerik [Ülke/Yasal Çerçeve] yasalarına göre hazırlanmıştır. Farklı yargı alanlarında farklı yasalar geçerli olabilir.
+**Legal Compliance Note:** This content was prepared according to [Country/Legal Framework] laws. Different laws may apply in different jurisdictions.
 
-**Yazar / Author:** [Opsiyonel / Optional]
-
+**Author:** [Optional]

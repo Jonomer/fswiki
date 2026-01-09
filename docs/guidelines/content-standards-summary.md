@@ -1,113 +1,110 @@
-# İçerik Standartları Özeti / Content Standards Summary
+# Content Standards Summary
 
-Bu belge, FS DEV Knowledge Base için içerik standartlarının kısa özetidir. Detaylı bilgi için [STYLE_GUIDE.md](../../STYLE_GUIDE.md) dosyasına bakın.
+This document is a brief summary of content standards for FS Wiki. See [STYLE_GUIDE.md](../../STYLE_GUIDE.md) for detailed information.
 
-This document is a brief summary of content standards for FS DEV Knowledge Base. See [STYLE_GUIDE.md](../../STYLE_GUIDE.md) for detailed information.
+## Quick Reference
 
-## Hızlı Referans / Quick Reference
-
-### Dosya İsimlendirme / File Naming
+### File Naming
 
 ```
-✅ doğru: network-segmentation-guide.md
-❌ yanlış: Network_Segmentation_Guide.md
+✅ correct: network-segmentation-guide.md
+❌ wrong: Network_Segmentation_Guide.md
 ```
 
-**Kural:** Küçük harf, kebab-case, açıklayıcı
+**Rule:** Lowercase, kebab-case, descriptive
 
-### Makale Yapısı / Article Structure
+### Article Structure
 
-Her makale şunları içermelidir:
+Each article should include:
 
-1. ✅ **Başlık / Title** (H1)
-2. ✅ **Özet / Summary** (H2)
-3. ✅ **Gereksinimler / Prerequisites** (H2)
-4. ✅ **İçerik / Content** (H2)
-5. ✅ **Örnekler / Examples** (H2)
-6. ✅ **Sonuç / Conclusion** (H2)
-7. ✅ **Kaynaklar / References** (H2)
-8. ✅ **İlgili Makaleler / Related Articles** (H2)
+1. ✅ **Title** (H1)
+2. ✅ **Summary** (H2)
+3. ✅ **Prerequisites** (H2)
+4. ✅ **Content** (H2)
+5. ✅ **Examples** (H2)
+6. ✅ **Conclusion** (H2)
+7. ✅ **References** (H2)
+8. ✅ **Related Articles** (H2)
 
-### Siber Güvenlik İçerikleri / Cybersecurity Content
+### Cybersecurity Content
 
-**ZORUNLU / REQUIRED:**
+**REQUIRED:**
 
 ```markdown
-## ⚠️ ETİK VE YASAL UYARI / ETHICAL AND LEGAL WARNING
+## ⚠️ ETHICAL AND LEGAL WARNING
 
-[Detaylı uyarı metni - template'e bakın]
+[Detailed warning text - see template]
 ```
 
-### Kod Örnekleri / Code Examples
+### Code Examples
 
 ```markdown
 ```language
-// Kod buraya
-// Açıklayıcı yorumlar ekleyin
+// Code here
+// Add descriptive comments
 ```
 ```
 
-**Kurallar:**
-- Çalışır kod olmalı
-- Açıklayıcı yorumlar
-- Gerçek API key/şifre YOK
-- Output gösterimi (gerekirse)
+**Rules:**
+- Must be working code
+- Descriptive comments
+- NO real API keys/passwords
+- Show output (if needed)
 
-### Görseller / Images
+### Images
 
 ```markdown
-![Alt text açıklaması](path/to/image.png)
+![Alt text description](path/to/image.png)
 
-*Şekil 1: Açıklama / Figure 1: Description*
+*Figure 1: Description*
 ```
 
-**Kurallar:**
-- Alt text zorunlu
-- Açıklayıcı başlık
-- Maksimum 1200px genişlik
-- <500KB dosya boyutu
+**Rules:**
+- Alt text required
+- Descriptive caption
+- Maximum 1200px width
+- <500KB file size
 
-### Linkler / Links
+### Links
 
 ```markdown
-✅ [Açıklayıcı Metin](https://example.com)
-❌ [buraya](https://example.com)  # Açıklayıcı değil
+✅ [Descriptive Text](https://example.com)
+❌ [click here](https://example.com)  # Not descriptive
 ```
 
-### Dil ve Ton / Language and Tone
+### Language and Tone
 
-- ✅ Profesyonel ama erişilebilir
-- ✅ Aktif ses kullanımı
-- ✅ Net talimatlar
-- ✅ İkinci şahıs (siz/sen)
+- ✅ Professional but accessible
+- ✅ Active voice
+- ✅ Clear instructions
+- ✅ Second person (you)
 
-## Kontrol Listesi / Checklist
+## Checklist
 
-Makale göndermeden önce:
+Before submitting an article:
 
-### İçerik / Content
-- [ ] Özet var mı?
-- [ ] Gereksinimler belirtilmiş mi?
-- [ ] Ana içerik tam mı?
-- [ ] Örnekler çalışır durumda mı?
+### Content
+- [ ] Summary included?
+- [ ] Prerequisites specified?
+- [ ] Main content complete?
+- [ ] Examples working?
 
-### Formatlama / Formatting
-- [ ] Markdown syntax doğru mu?
-- [ ] Başlık hiyerarşisi doğru mu?
-- [ ] Kod blokları doğru dil etiketiyle mi?
-- [ ] Linkler çalışıyor mu?
+### Formatting
+- [ ] Markdown syntax correct?
+- [ ] Heading hierarchy correct?
+- [ ] Code blocks with correct language tags?
+- [ ] Links working?
 
-### Etik ve Yasal / Ethical and Legal
-- [ ] Güvenlik içeriği için uyarı var mı?
-- [ ] Hassas bilgi yok mu?
-- [ ] Kaynaklar belirtilmiş mi?
+### Ethical and Legal
+- [ ] Warning for security content?
+- [ ] No sensitive information?
+- [ ] Sources specified?
 
-### Kalite / Quality
-- [ ] Yazım hatası kontrolü yapıldı mı?
-- [ ] Teknik doğruluk kontrol edildi mi?
-- [ ] Profesyonel dil kullanıldı mı?
+### Quality
+- [ ] Spelling check done?
+- [ ] Technical accuracy checked?
+- [ ] Professional language used?
 
 ---
 
-**Detaylı bilgi için:** [STYLE_GUIDE.md](../../STYLE_GUIDE.md)
-
+**For detailed information:** [STYLE_GUIDE.md](../../STYLE_GUIDE.md)

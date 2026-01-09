@@ -1,84 +1,81 @@
-# Siber Güvenlik / Cybersecurity
-
-Bu klasör, siber güvenlik konularında pratik ve eğitim amaçlı içerikler içermektedir.
+# Cybersecurity
 
 This folder contains practical and educational content on cybersecurity topics.
 
-## ⚠️ ÖNEMLİ UYARI / IMPORTANT WARNING
+## ⚠️ IMPORTANT WARNING
 
-**ETİK KULLANIM ŞARTLARI / ETHICAL USE TERMS**
+**ETHICAL USE TERMS**
 
-Bu bölümdeki tüm içerikler **sadece eğitim, araştırma ve yasal savunma amaçlı** kullanım için hazırlanmıştır.
+All content in this section is intended **solely for educational, research, and legal defensive purposes**.
 
-**ÖNEMLİ UYARILAR / IMPORTANT WARNINGS:**
+**IMPORTANT WARNINGS:**
 
-1. ⚖️ Bu içerikler sadece **yasal ve etik sınırlar** içinde kullanılmalıdır
-2. 🚫 **Yetkisiz sistem erişimi, veri ihlali veya kötü niyetli aktiviteler** için kullanılamaz
-3. 📚 İçerikler **sadece eğitim** ve **kendi sistemlerinizde test etme** amaçlıdır
-4. ✅ Başkalarının sistemlerinde test yapmadan önce mutlaka **yazılı izin** alınmalıdır
-5. 🔒 Tüm penetrasyon testleri için **resmi sözleşme** gereklidir
+1. ⚖️ This content should only be used within **legal and ethical boundaries**
+2. 🚫 **Cannot be used** for unauthorized system access, data breaches, or malicious activities
+3. 📚 Content is **for education** and **testing on your own systems** only
+4. ✅ Written permission must be obtained before testing on others' systems
+5. 🔒 Official contract required for all penetration tests
 
-## 📂 Klasör Yapısı / Folder Structure
+## 📂 Folder Structure
 
-### Defansif Güvenlik / Defensive Security
-- Ağ segmentasyonu ve izolasyon
-- Güvenlik duvarı konfigürasyonları
-- IDS/IPS sistemleri
-- Security monitoring ve SIEM
-- Incident response planları
+### Defensive Security
+- Network segmentation and isolation
+- Firewall configurations
+- IDS/IPS systems
+- Security monitoring and SIEM
+- Incident response plans
 
-### Etik Hackleme / Ethical Hacking
-- Penetration testing metodolojileri
-- Vulnerability assessment teknikleri
+### Ethical Hacking
+- Penetration testing methodologies
+- Vulnerability assessment techniques
 - Security auditing
-- Red team / Blue team exercises (yasal çerçevede)
+- Red team / Blue team exercises (within legal framework)
 
-### Ağ Güvenliği / Network Security
-- VPN konfigürasyonları
+### Network Security
+- VPN configurations
 - Network segmentation
-- Firewall rules ve best practices
+- Firewall rules and best practices
 - Network monitoring
 - DDoS mitigation
 
-### Güvenlik Açığı Değerlendirme / Vulnerability Assessment
+### Vulnerability Assessment
 - Vulnerability scanning
-- Risk değerlendirme metodolojileri
+- Risk assessment methodologies
 - CVSS scoring
 - Patch management
 - Security baselining
 
-### Olay Müdahale / Incident Response
-- IR planlaması ve hazırlık
-- Detection ve analiz
-- Containment stratejileri
-- Recovery süreçleri
+### Incident Response
+- IR planning and preparation
+- Detection and analysis
+- Containment strategies
+- Recovery processes
 - Post-incident review
 
-## 📝 İçerik Standartları / Content Standards
+## 📝 Content Standards
 
-Her makale şunları içermelidir:
-- Etik ve yasal uyarılar
-- Pratik uygulamalar
-- Gerçek dünya senaryoları (anonimleştirilmiş)
-- Doğrulanabilir kaynaklar
+Each article should include:
+- Ethical and legal warnings
+- Practical applications
+- Real-world scenarios (anonymized)
+- Verifiable sources
 - Best practices
 
-Detaylı standartlar için ana dizindeki [STYLE_GUIDE.md](../STYLE_GUIDE.md) dosyasına bakın.
+See the main [STYLE_GUIDE.md](../STYLE_GUIDE.md) file for detailed standards.
 
-## 🔗 İlgili Kategoriler / Related Categories
+## 🔗 Related Categories
 
-- [Linux & Sistem Yönetimi](../linux-sysadmin/) - Sistem güvenliği
-- [Yazılım Geliştirme](../software-development/) - Secure coding
+- [Linux & System Administration](../linux-sysadmin/) - System security
+- [Software Development](../software-development/) - Secure coding
 
-## 🤝 Katkıda Bulunma / Contributing
+## 🤝 Contributing
 
-Yeni içerik eklerken lütfen:
-1. [CONTRIBUTING.md](../CONTRIBUTING.md) dosyasını okuyun
-2. Etik ve yasal uyarıları eklemeyi unutmayın
-3. Sadece defansif ve eğitim amaçlı içerik ekleyin
-4. Pull Request açmadan önce tüm uyarıların eklendiğinden emin olun
+When adding new content, please:
+1. Read the [CONTRIBUTING.md](../CONTRIBUTING.md) file
+2. Don't forget to add ethical and legal warnings
+3. Only add defensive and educational content
+4. Make sure all warnings are added before opening a Pull Request
 
 ---
 
-**Unutmayın:** Bu bilgileri kullanarak yapılan herhangi bir eylemden proje sahipleri veya katkıda bulunanlar sorumlu tutulamaz. **Kendi sorumluluğunuz altında** kullanın.
-
+**Remember:** Project owners or contributors cannot be held responsible for any actions taken using this information. **Use at your own responsibility**.
