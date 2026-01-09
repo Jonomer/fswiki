@@ -1,0 +1,66 @@
+# Site Settings
+title: "FS Wiki"
+description: "Professional Technical Knowledge Base"
+url: "https://fswiki.github.io"
+baseurl: ""  # If using username.github.io/repo-name: "/fswiki"
+
+# Language Settings
+lang: en
+locale: en_US
+
+# Yazar Bilgileri / Author Info
+author:
+  name: "FS DEV Community"
+  email: ""
+  github: "Jonomer"
+
+# Tema Ayarları / Theme Settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build Ayarları / Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude / Hariç Tutulacaklar
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - CONTRIBUTING.md
+  - ROADMAP.md
+  - STYLE_GUIDE.md
+  - CODE_OF_CONDUCT.md
+  - LICENSE
+  - setup-guides
+
+# Include / Dahil Edilecekler
+include:
+  - _pages
+
+# Navigation / Navigasyon
+header_pages:
+  - index.md
+  - about.md
+  - categories.md
+
+# Social Media (opsiyonel)
+social:
+  github_username: Jonomer
+
+# Minima Tema Ayarları
+minima:
+  social_links:
+    github: Jonomer
+
+# SEO Ayarları
+google_analytics: # Google Analytics ID (opsiyonel)
+

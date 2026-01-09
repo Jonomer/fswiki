@@ -1,0 +1,88 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.backup
+
+# Build Outputs
+dist/
+build/
+out/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Node (if used for tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python (if used for tooling)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Documentation Build
+docs/_build/
+site/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Assets (large files - use Git LFS if needed)
+*.psd
+*.ai
+*.sketch
+*.zip
+*.tar.gz
+*.rar
+
+# Personal Notes (not for public)
+notes/
+personal/
+drafts/
+scratch/
+
