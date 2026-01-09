@@ -1,57 +1,55 @@
-# Stil Kılavuzu / Style Guide
+# Style Guide
 
-FS DEV Knowledge Base için yazım standartları, formatlama kuralları ve içerik gereksinimleri.
-
-Writing standards, formatting rules, and content requirements for FS DEV Knowledge Base.
+Writing standards, formatting rules, and content requirements for FS Wiki.
 
 ---
 
-## 📋 İçindekiler / Table of Contents
+## 📋 Table of Contents
 
-- [Genel İlkeler / General Principles](#-genel-ilkeler--general-principles)
-- [Dosya Organizasyonu / File Organization](#-dosya-organizasyonu--file-organization)
-- [Markdown Formatlama / Markdown Formatting](#-markdown-formatlama--markdown-formatting)
-- [İçerik Yapısı / Content Structure](#-içerik-yapısı--content-structure)
-- [Dil ve Ton / Language and Tone](#-dil-ve-ton--language-and-tone)
-- [Kod ve Örnekler / Code and Examples](#-kod-ve-örnekler--code-and-examples)
-- [Görseller / Images](#-görseller--images)
-- [Linkler ve Referanslar / Links and References](#-linkler-ve-referanslar--links-and-references)
-- [Özel Durumlar / Special Cases](#-özel-durumlar--special-cases)
-
----
-
-## 🎯 Genel İlkeler / General Principles
-
-### 1. Netlik ve Doğruluk / Clarity and Accuracy
-
-- ✅ Açık, anlaşılır dil kullanın
-- ✅ Teknik terimleri ilk kullanımda açıklayın
-- ✅ Gerçek ve doğrulanabilir bilgi verin
-- ✅ Kaynak gösterin
-
-### 2. Pratik Odaklılık / Practical Focus
-
-- ✅ Teoriden çok, uygulanabilir içerik
-- ✅ Gerçek dünya senaryoları
-- ✅ Adım adım talimatlar
-- ✅ Troubleshooting bölümleri
-
-### 3. Profesyonellik / Professionalism
-
-- ✅ Yüksek kalite standartları
-- ✅ Tutarlı formatlama
-- ✅ Doğru gramer ve yazım
-- ✅ Uygun teknik terminoloji
+- [General Principles](#-general-principles)
+- [File Organization](#-file-organization)
+- [Markdown Formatting](#-markdown-formatting)
+- [Content Structure](#-content-structure)
+- [Language and Tone](#-language-and-tone)
+- [Code and Examples](#-code-and-examples)
+- [Images](#-images)
+- [Links and References](#-links-and-references)
+- [Special Cases](#-special-cases)
 
 ---
 
-## 📁 Dosya Organizasyonu / File Organization
+## 🎯 General Principles
 
-### Dosya İsimlendirme / File Naming
+### 1. Clarity and Accuracy
 
-**Format:** `kebab-case.md` (küçük harf, tire ile ayrılmış)
+- ✅ Use clear, understandable language
+- ✅ Explain technical terms on first use
+- ✅ Provide real and verifiable information
+- ✅ Cite sources
 
-**Örnekler:**
+### 2. Practical Focus
+
+- ✅ Practical, applicable content over theory
+- ✅ Real-world scenarios
+- ✅ Step-by-step instructions
+- ✅ Troubleshooting sections
+
+### 3. Professionalism
+
+- ✅ High quality standards
+- ✅ Consistent formatting
+- ✅ Correct grammar and spelling
+- ✅ Appropriate technical terminology
+
+---
+
+## 📁 File Organization
+
+### File Naming
+
+**Format:** `kebab-case.md` (lowercase, separated by hyphens)
+
+**Examples:**
 ```
 ✅ network-segmentation-guide.md
 ✅ docker-container-security.md
@@ -63,15 +61,15 @@ Writing standards, formatting rules, and content requirements for FS DEV Knowled
 ❌ PCB-Design.md
 ```
 
-**Kurallar:**
-- Sadece küçük harf
-- Kelimeler arasında tire (`-`)
-- Açıklayıcı ve spesifik isimler
-- Türkçe karakter kullanmayın (İ → i, Ş → s, vb.)
+**Rules:**
+- Lowercase only
+- Hyphens (`-`) between words
+- Descriptive and specific names
+- Do not use Turkish characters (İ → i, Ş → s, etc.)
 
-### Klasör Yapısı / Folder Structure
+### Folder Structure
 
-Her kategori altında mantıklı alt klasörler kullanın:
+Use logical subfolders under each category:
 
 ```
 cybersecurity/
@@ -80,92 +78,92 @@ cybersecurity/
 │   └── firewall-configuration.md
 ├── ethical-hacking/
 │   └── penetration-testing-methodology.md
-└── README.md (kategori açıklaması için)
+└── README.md (for category description)
 ```
 
 ---
 
-## 📝 Markdown Formatlama / Markdown Formatting
+## 📝 Markdown Formatting
 
-### Başlıklar / Headings
+### Headings
 
-**Hiyerarşi:**
+**Hierarchy:**
 ```markdown
-# H1 - Ana Başlık (Sayfa başlığı, bir kez kullanılır)
-## H2 - Bölüm başlıkları
-### H3 - Alt bölümler
-#### H4 - Alt alt bölümler (nadiren)
+# H1 - Main Title (Page title, used once)
+## H2 - Section headings
+### H3 - Subsections
+#### H4 - Sub-subsections (rarely)
 ```
 
-**Kurallar:**
-- H1 sadece dosyanın en başında, bir kez
-- H2 ve H3 yaygın kullanım
-- H4 ve altı mümkünse kaçının
-- Başlıklar açıklayıcı olmalı
+**Rules:**
+- H1 only at the very beginning of the file, once
+- H2 and H3 common usage
+- Avoid H4 and below if possible
+- Headings should be descriptive
 
-### Metin Formatlama / Text Formatting
-
-```markdown
-**Kalın / Bold** - Önemli terimler, komutlar
-*İtalik / Italic* - Vurgu, değişken isimleri
-`Kod / Code` - Teknik terimler, komutlar, dosya yolları
-~~Üstü çizili / Strikethrough~~ - Güncel olmayan bilgi (nadiren)
-```
-
-**Örnek:**
-```markdown
-`docker run` komutu ile bir container başlatabilirsiniz. 
-**Önemli:** Bu işlem root yetkisi gerektirebilir.
-```
-
-### Listeler / Lists
-
-**Sırasız Liste (Unordered):**
-```markdown
-- İlk madde
-- İkinci madde
-  - Alt madde (2 space indent)
-  - Alt madde
-- Üçüncü madde
-```
-
-**Sıralı Liste (Ordered):**
-```markdown
-1. İlk adım
-2. İkinci adım
-   1. Alt adım
-   2. Alt adım
-3. Üçüncü adım
-```
-
-**Kontrol Listesi (Checklist):**
-```markdown
-- [ ] Yapılacak görev 1
-- [x] Tamamlanmış görev
-- [ ] Yapılacak görev 2
-```
-
-### Blok Alıntılar / Blockquotes
+### Text Formatting
 
 ```markdown
-> **Not / Note:** Önemli bir bilgi veya uyarı için kullanılır.
-
-> **Uyarı / Warning:** Dikkat edilmesi gereken durumlar için.
-
-> **İpucu / Tip:** Yararlı ipuçları için.
+**Bold** - Important terms, commands
+*Italic* - Emphasis, variable names
+`Code` - Technical terms, commands, file paths
+~~Strikethrough~~ - Outdated information (rarely)
 ```
 
-### Kod Blokları / Code Blocks
-
-**Satır İçi Kod / Inline Code:**
+**Example:**
 ```markdown
-`komut` veya `değişken_ismi`
+You can start a container with the `docker run` command. 
+**Important:** This operation may require root privileges.
 ```
 
-**Kod Blokları / Code Blocks:**
+### Lists
+
+**Unordered List:**
+```markdown
+- First item
+- Second item
+  - Sub-item (2 space indent)
+  - Sub-item
+- Third item
+```
+
+**Ordered List:**
+```markdown
+1. First step
+2. Second step
+   1. Sub-step
+   2. Sub-step
+3. Third step
+```
+
+**Checklist:**
+```markdown
+- [ ] Task to do 1
+- [x] Completed task
+- [ ] Task to do 2
+```
+
+### Blockquotes
+
+```markdown
+> **Note:** Used for important information or warnings.
+
+> **Warning:** For situations that require attention.
+
+> **Tip:** For helpful tips.
+```
+
+### Code Blocks
+
+**Inline Code:**
+```markdown
+`command` or `variable_name`
+```
+
+**Code Blocks:**
 ````markdown
 ```language
-kod buraya
+code here
 ```
 
 ```bash
@@ -184,141 +182,130 @@ services:
 ```
 ````
 
-**Dil Etiketleri / Language Tags:**
-- `bash`, `sh` - Shell komutları
-- `python`, `javascript`, `go`, vb. - Programlama dilleri
-- `yaml`, `json`, `xml` - Konfigürasyon dosyaları
-- `dockerfile`, `docker-compose` - Docker dosyaları
-- `text` veya boş - Genel metin
+**Language Tags:**
+- `bash`, `sh` - Shell commands
+- `python`, `javascript`, `go`, etc. - Programming languages
+- `yaml`, `json`, `xml` - Configuration files
+- `dockerfile`, `docker-compose` - Docker files
+- `text` or empty - General text
 
 ---
 
-## 📖 İçerik Yapısı / Content Structure
+## 📖 Content Structure
 
-### Zorunlu Bölümler / Required Sections
+### Required Sections
 
-Her makale şu yapıyı içermelidir:
+Each article should include this structure:
 
 ```markdown
-# Makale Başlığı / Article Title
+# Article Title
 
-## Özet / Summary
-[2-3 cümlelik kısa açıklama]
+## Summary
+[2-3 sentence brief description]
 
-## Gereksinimler / Prerequisites
-- Gerekli bilgi seviyesi
-- Gerekli araçlar/yazılımlar
-- Ön koşul bilgiler
+## Prerequisites
+- Required knowledge level
+- Required tools/software
+- Prerequisite information
 
-## İçerik / Content
-[Ana içerik burada]
+## Content
+[Main content here]
 
-## Örnekler / Examples
-[Pratik örnekler, kod snippet'leri]
+## Examples
+[Practical examples, code snippets]
 
-## Sonuç / Conclusion
-[Özet ve sonraki adımlar]
+## Conclusion
+[Summary and next steps]
 
-## Kaynaklar / References
-- [Kaynak 1](url)
-- [Kaynak 2](url)
+## References
+- [Source 1](url)
+- [Source 2](url)
 
-## İlgili Makaleler / Related Articles
-- [Makale 1](relative-path.md)
-- [Makale 2](relative-path.md)
+## Related Articles
+- [Article 1](relative-path.md)
+- [Article 2](relative-path.md)
 ```
 
-### Opsiyonel Bölümler / Optional Sections
+### Optional Sections
 
 ```markdown
-## Sorun Giderme / Troubleshooting
-[Yaygın sorunlar ve çözümleri]
+## Troubleshooting
+[Common problems and solutions]
 
-## Güvenlik Notları / Security Notes
-[Güvenlikle ilgili önemli notlar]
+## Security Notes
+[Important security-related notes]
 
 ## Best Practices
-[En iyi uygulamalar]
+[Best practices]
 
-## Notlar / Notes
-[Ek notlar, uyarılar]
+## Notes
+[Additional notes, warnings]
 ```
 
 ---
 
-## 💬 Dil ve Ton / Language and Tone
+## 💬 Language and Tone
 
-### Dil Kuralları / Language Rules
+### Language Rules
 
-1. **Profesyonel ama Erişilebilir:**
-   - Teknik terimler kullanın ama açıklayın
-   - Jargon'u aşırı kullanmayın
-   - Yeni başlayanlar için de anlaşılır olun
+1. **Professional but Accessible:**
+   - Use technical terms but explain them
+   - Don't overuse jargon
+   - Be understandable for beginners too
 
-2. **Aktif Ses Kullanımı:**
+2. **Use Active Voice:**
    ```
-   ✅ "Komutu çalıştırın" (aktif)
-   ❌ "Komut çalıştırılmalıdır" (pasif, gereksiz formal)
-   ```
-
-3. **Net Talimatlar:**
-   ```
-   ✅ "Dosyayı kaydedin ve servisi yeniden başlatın"
-   ❌ "Dosyanın kaydedilmesi ve servisin yeniden başlatılması önerilir"
+   ✅ "Run the command" (active)
+   ❌ "The command should be run" (passive, unnecessarily formal)
    ```
 
-4. **İkinci Şahıs (Sen/Siz):**
-   - Talimatlarda "siz" kullanın
-   - Örneklerde "sen" kullanılabilir (daha samimi)
+3. **Clear Instructions:**
+   ```
+   ✅ "Save the file and restart the service"
+   ❌ "It is recommended that the file be saved and the service be restarted"
+   ```
 
-### Çoklu Dil Desteği / Multilingual Support
+4. **Second Person (You):**
+   - Use "you" in instructions
+   - "You" can be used in examples (more friendly)
 
-**Format:** Türkçe ve İngilizce birlikte veya ayrı dosyalar
+### Multilingual Support
 
-**Yöntem 1 - Aynı Dosyada:**
-```markdown
-# Başlık / Title
+**Format:** English only (primary language)
 
-## Türkçe Bölüm
-İçerik...
-
-## English Section
-Content...
+**If needed, separate files:**
 ```
-
-**Yöntem 2 - Ayrı Dosyalar:**
-```
-guide-tr.md
 guide-en.md
+guide-tr.md
 ```
 
-**Önerilen:** Yöntem 1 (aynı dosya), daha kolay bakım
+**Recommended:** English-only approach for consistency
 
 ---
 
-## 💻 Kod ve Örnekler / Code and Examples
+## 💻 Code and Examples
 
-### Kod Örnekleri Kuralları / Code Example Rules
+### Code Example Rules
 
-1. **Çalışır Örnekler:**
-   - Tüm kod örnekleri test edilmiş olmalı
-   - Çalışmayan placeholder kod kullanmayın
+1. **Working Examples:**
+   - All code examples should be tested
+   - Don't use non-working placeholder code
 
-2. **Açıklayıcı Yorumlar:**
+2. **Descriptive Comments:**
    ```python
-   # ✅ İyi
+   # ✅ Good
    def secure_hash(password: str) -> str:
-       """Güvenli hash fonksiyonu - bcrypt kullanır"""
+       """Secure hash function - uses bcrypt"""
        return bcrypt.hashpw(password.encode(), bcrypt.gensalt())
    
-   # ❌ Kötü
+   # ❌ Bad
    def hash(p):
-       return h(p)  # Ne yaptığı belli değil
+       return h(p)  # Unclear what it does
    ```
 
-3. **Output Gösterimi:**
+3. **Show Output:**
    ```markdown
-   Komutu çalıştırdığınızda:
+   When you run the command:
    
    ```bash
    $ docker ps
@@ -327,47 +314,47 @@ guide-en.md
    ```
    ```
 
-4. **Hata Senaryoları:**
+4. **Error Scenarios:**
    ```markdown
-   Eğer hata alırsanız:
+   If you encounter an error:
    
    ```bash
    $ docker run ubuntu
    Error: permission denied
    ```
    
-   Çözüm: `sudo` kullanın veya docker grubuna ekleyin.
+   Solution: Use `sudo` or add to docker group.
    ```
 
-### Güvenlik Hassasiyeti / Security Sensitivity
+### Security Sensitivity
 
-**Asla Yapmayın / Never Do:**
-- ❌ Gerçek API key'leri
-- ❌ Gerçek şifreler veya token'lar
-- ❌ Production veritabanı bağlantı bilgileri
-- ❌ Kişisel bilgiler
+**Never Do:**
+- ❌ Real API keys
+- ❌ Real passwords or tokens
+- ❌ Production database connection information
+- ❌ Personal information
 
-**Yapın / Do:**
-- ✅ `YOUR_API_KEY`, `example.com` gibi placeholder'lar
-- ✅ `.env.example` dosyaları
-- ✅ Güvenlik notları ekleyin
+**Do:**
+- ✅ Placeholders like `YOUR_API_KEY`, `example.com`
+- ✅ `.env.example` files
+- ✅ Add security notes
 
 ---
 
-## 🖼️ Görseller / Images
+## 🖼️ Images
 
-### Görsel Kuralları / Image Rules
+### Image Rules
 
 1. **Format:**
-   - PNG: Screenshot'lar, diagram'lar
-   - SVG: Vektör grafikler (tercih edilir)
-   - JPG: Fotoğraflar (nadiren)
+   - PNG: Screenshots, diagrams
+   - SVG: Vector graphics (preferred)
+   - JPG: Photos (rarely)
 
-2. **Boyut:**
-   - Maksimum genişlik: 1200px
-   - Dosya boyutu: Mümkün olduğunca küçük (<500KB ideal)
+2. **Size:**
+   - Maximum width: 1200px
+   - File size: As small as possible (<500KB ideal)
 
-3. **Dosya İsimlendirme:**
+3. **File Naming:**
    ```
    assets/
    ├── images/
@@ -376,134 +363,132 @@ guide-en.md
    │   └── pcb-design-example.png
    ```
 
-4. **Markdown Kullanımı:**
+4. **Markdown Usage:**
    ```markdown
-   ![Alt text açıklaması / Alt text description](path/to/image.png)
+   ![Alt text description](path/to/image.png)
    
-   *Şekil 1: Ağ topolojisi diyagramı / Figure 1: Network topology diagram*
+   *Figure 1: Network topology diagram*
    ```
 
-5. **Erişilebilirlik:**
-   - Alt text mutlaka ekleyin
-   - Açıklayıcı başlık/şekil numarası ekleyin
+5. **Accessibility:**
+   - Always add alt text
+   - Add descriptive title/figure number
 
 ---
 
-## 🔗 Linkler ve Referanslar / Links and References
+## 🔗 Links and References
 
-### İç Linkler / Internal Links
+### Internal Links
 
 ```markdown
-✅ [Makale Adı](relative/path/to/article.md)
-✅ [Başlık](#section-id)  # Aynı dosya içi
+✅ [Article Name](relative/path/to/article.md)
+✅ [Heading](#section-id)  # Within same file
 ```
 
-### Dış Linkler / External Links
+### External Links
 
 ```markdown
-✅ [Kaynak Adı](https://example.com) - Açıklayıcı metin
-✅ [RFC 7231](https://tools.ietf.org/html/rfc7231) - HTTP/1.1 spesifikasyonu
+✅ [Source Name](https://example.com) - Descriptive text
+✅ [RFC 7231](https://tools.ietf.org/html/rfc7231) - HTTP/1.1 specification
 ```
 
-**Kurallar:**
-- Link metni açıklayıcı olmalı (sadece "buraya" değil)
-- Dış linkler için güvenilir kaynaklar kullanın
-- Mümkünse HTTPS kullanın
+**Rules:**
+- Link text should be descriptive (not just "here")
+- Use reliable sources for external links
+- Use HTTPS when possible
 
-### Referans Formatı / Reference Format
+### Reference Format
 
 ```markdown
-## Kaynaklar / References
+## References
 
-- [Dokümantasyon Başlığı](https://example.com/docs) - Kısa açıklama
-- [Makale Başlığı](https://example.com/article) - Yazar, Yıl (opsiyonel)
+- [Documentation Title](https://example.com/docs) - Brief description
+- [Article Title](https://example.com/article) - Author, Year (optional)
 - RFC 7231 - [Hypertext Transfer Protocol](https://tools.ietf.org/html/rfc7231)
 ```
 
 ---
 
-## ⚠️ Özel Durumlar / Special Cases
+## ⚠️ Special Cases
 
-### Siber Güvenlik İçerikleri / Cybersecurity Content
+### Cybersecurity Content
 
-**ZORUNLU EKLEMELER / REQUIRED ADDITIONS:**
+**REQUIRED ADDITIONS:**
 
 ```markdown
-## ⚠️ Etik ve Yasal Uyarı / Ethical and Legal Warning
+## ⚠️ Ethical and Legal Warning
 
-Bu içerik **sadece eğitim ve yasal savunma amaçlı** kullanım için hazırlanmıştır.
+This content is intended **solely for educational and legal defensive purposes**.
 
-**ÖNEMLİ:**
-- Bu teknikleri sadece **sahip olduğunuz sistemlerde** veya **açık izin verilen sistemlerde** kullanın
-- Yetkisiz erişim yasadışıdır ve cezai sorumluluk doğurabilir
-- Etik hackleme için mutlaka yazılı izin (penetration testing contract) alın
-- Bu bilgileri kötü niyetle kullanmayın
+**IMPORTANT:**
+- Use these techniques only on **systems you own** or **systems with explicit permission**
+- Unauthorized access is illegal and may result in criminal liability
+- Always obtain written permission (penetration testing contract) for ethical hacking
+- Do not use this information maliciously
 
-**Yasal Sorumluluk Reddi:** Bu içeriği kullanarak yapılan herhangi bir eylemden 
-proje sahipleri veya katkıda bulunanlar sorumlu tutulamaz.
+**Legal Disclaimer:** Project owners or contributors cannot be held responsible for any actions taken using this content.
 ```
 
-### Güncel Olmayan İçerik / Outdated Content
+### Outdated Content
 
-Eğer içerik güncel değilse:
+If content is outdated:
 
 ```markdown
-> **⚠️ Güncel Olmayan İçerik / Outdated Content**
+> **⚠️ Outdated Content**
 > 
-> Bu makale [Tarih] tarihinde yazılmıştır ve bazı bilgiler güncel olmayabilir.
-> Güncelleme planlanmaktadır. Son güncelleme: [Tarih]
+> This article was written on [Date] and some information may be outdated.
+> Update is planned. Last update: [Date]
 ```
 
-### Work-in-Progress (WIP) / İnşa Halinde
+### Work-in-Progress (WIP)
 
 ```markdown
-> **🚧 İnşa Halinde / Work in Progress**
+> **🚧 Work in Progress**
 > 
-> Bu makale hala yazılmaktadır. İçerik eksik veya değişebilir.
-> Tahmini tamamlanma: [Tarih]
+> This article is still being written. Content may be incomplete or change.
+> Estimated completion: [Date]
 ```
 
 ---
 
-## ✅ Kontrol Listesi / Checklist
+## ✅ Checklist
 
-Makale göndermeden önce:
+Before submitting an article:
 
-### İçerik / Content
-- [ ] Özet bölümü var mı?
-- [ ] Gereksinimler belirtilmiş mi?
-- [ ] Ana içerik tam ve doğru mu?
-- [ ] Örnekler çalışır durumda mı?
-- [ ] Sonuç bölümü var mı?
+### Content
+- [ ] Is there a summary section?
+- [ ] Are prerequisites specified?
+- [ ] Is main content complete and accurate?
+- [ ] Are examples working?
+- [ ] Is there a conclusion section?
 
-### Formatlama / Formatting
-- [ ] Markdown syntax doğru mu?
-- [ ] Başlık hiyerarşisi doğru mu?
-- [ ] Kod blokları doğru dil etiketiyle mi?
-- [ ] Linkler çalışıyor mu?
-- [ ] Görseller varsa alt text var mı?
+### Formatting
+- [ ] Is Markdown syntax correct?
+- [ ] Is heading hierarchy correct?
+- [ ] Are code blocks with correct language tags?
+- [ ] Do links work?
+- [ ] If there are images, is alt text present?
 
-### Etik ve Yasal / Ethical and Legal
-- [ ] Güvenlik içeriği için uyarı eklendi mi?
-- [ ] Hassas bilgi (API key, şifre) yok mu?
-- [ ] Kaynaklar belirtilmiş mi?
-- [ ] Telif hakkı ihlali yok mu?
+### Ethical and Legal
+- [ ] Is warning added for security content?
+- [ ] Is there no sensitive information (API key, password)?
+- [ ] Are sources specified?
+- [ ] Is there no copyright infringement?
 
-### Kalite / Quality
-- [ ] Yazım hatası kontrolü yapıldı mı?
-- [ ] Teknik doğruluk kontrol edildi mi?
-- [ ] Anlaşılır ve profesyonel dil kullanıldı mı?
+### Quality
+- [ ] Was spell-check done?
+- [ ] Was technical accuracy checked?
+- [ ] Was clear and professional language used?
 
 ---
 
-## 📚 Ek Kaynaklar / Additional Resources
+## 📚 Additional Resources
 
 - [Markdown Guide](https://www.markdownguide.org/)
 - [GitHub Flavored Markdown](https://github.github.com/gfm/)
 - [Technical Writing Best Practices](https://developers.google.com/tech-writing)
-- [CONTRIBUTING.md](CONTRIBUTING.md) - Katkı süreci
+- [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution process
 
 ---
 
-**Son Güncelleme / Last Updated:** 2024 Q1
-
+**Last Updated:** 2024 Q1

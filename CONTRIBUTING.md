@@ -1,113 +1,109 @@
-# Katkıda Bulunma Rehberi / Contributing Guide
+# Contributing Guide
 
-Bu belge, FS DEV Knowledge Base projesine nasıl katkıda bulunabileceğinizi açıklar.
-
-This document explains how you can contribute to the FS DEV Knowledge Base project.
+This document explains how you can contribute to the FS Wiki project.
 
 ---
 
-## 📋 İçindekiler / Table of Contents
+## 📋 Table of Contents
 
-- [Davranış Kuralları / Code of Conduct](#-davranış-kuralları--code-of-conduct)
-- [Katkı Türleri / Types of Contributions](#-katkı-türleri--types-of-contributions)
-- [İlk Adımlar / Getting Started](#-ilk-adımlar--getting-started)
-- [İş Akışı / Workflow](#-iş-akışı--workflow)
-- [Yazım Standartları / Writing Standards](#-yazım-standartları--writing-standards)
-- [İnceleme Süreci / Review Process](#-inceleme-süreci--review-process)
+- [Code of Conduct](#-code-of-conduct)
+- [Types of Contributions](#-types-of-contributions)
+- [Getting Started](#-getting-started)
+- [Workflow](#-workflow)
+- [Writing Standards](#-writing-standards)
+- [Review Process](#-review-process)
 
 ---
 
-## 📜 Davranış Kuralları / Code of Conduct
-
-Bu projeye katkıda bulunurken [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) dosyasındaki kurallara uymanız beklenir. Kısa özet:
+## 📜 Code of Conduct
 
 By contributing to this project, you are expected to follow the rules in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Brief summary:
 
-- ✅ Saygılı ve kapsayıcı olun
-- ✅ Yapıcı geri bildirimde bulunun
-- ✅ Profesyonel dil kullanın
-- ❌ Kişisel saldırılar yapmayın
-- ❌ Spam veya off-topic içerik göndermeyin
+- ✅ Be respectful and inclusive
+- ✅ Provide constructive feedback
+- ✅ Use professional language
+- ❌ Do not make personal attacks
+- ❌ Do not submit spam or off-topic content
 
 ---
 
-## 🎯 Katkı Türleri / Types of Contributions
+## 🎯 Types of Contributions
 
-### 1. İçerik Ekleme / Adding Content
+### 1. Adding Content
 
-- Yeni makaleler yazma
-- Mevcut makaleleri iyileştirme
-- Eksik konuları tamamlama
-- Örnek kod ve senaryolar ekleme
+- Writing new articles
+- Improving existing articles
+- Completing missing topics
+- Adding code examples and scenarios
 
-### 2. Düzeltmeler / Fixes
+### 2. Fixes
 
-- Yazım hatalarını düzeltme
-- Formatlama sorunlarını çözme
-- Güncel olmayan bilgileri güncelleme
-- Broken link'leri düzeltme
+- Fixing spelling errors
+- Resolving formatting issues
+- Updating outdated information
+- Fixing broken links
 
-### 3. Dokümantasyon / Documentation
+### 3. Documentation
 
-- README'leri iyileştirme
-- Yönergeleri netleştirme
-- Örnekler ekleme
-- Çeviriler (EN/TR)
+- Improving READMEs
+- Clarifying guidelines
+- Adding examples
+- Translations (if needed)
 
-### 4. Organizasyon / Organization
+### 4. Organization
 
-- İçerik kategorizasyonu
-- Navigasyon iyileştirmeleri
-- Cross-referencing ekleme
+- Content categorization
+- Navigation improvements
+- Adding cross-referencing
 
 ---
 
-## 🚀 İlk Adımlar / Getting Started
+## 🚀 Getting Started
 
-### 1. Repository'yi Fork Edin
+### 1. Fork the Repository
 
-GitHub'da projeyi fork edin ve local'e klonlayın:
+Fork the project on GitHub and clone it locally:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/fswiki.git
 cd fswiki
 ```
 
-### 2. Remote Repository Ekleyin
+### 2. Add Remote Repository
 
 ```bash
 git remote add upstream https://github.com/Jonomer/fswiki.git
 ```
 
-### 3. Branch Oluşturun
+### 3. Create a Branch
 
-Her katkı için yeni bir branch oluşturun:
+Create a new branch for each contribution:
 
 ```bash
 git checkout -b feature/your-contribution-name
-# veya
+# or
 git checkout -b fix/issue-description
 ```
 
-**Branch İsimlendirme Kuralları:**
-- `feature/` - Yeni içerik veya özellik
-- `fix/` - Hata düzeltmesi
-- `docs/` - Dokümantasyon değişikliği
-- `update/` - Mevcut içerik güncellemesi
+**Branch Naming Rules:**
+- `feature/` - New content or feature
+- `fix/` - Bug fix
+- `docs/` - Documentation change
+- `update/` - Existing content update
 
 ---
 
-## 📝 İş Akışı / Workflow
+## 📝 Workflow
 
-### 1. Değişikliklerinizi Yapın
+### 1. Make Your Changes
 
-- [STYLE_GUIDE.md](STYLE_GUIDE.md) dosyasındaki standartları takip edin
-- Yüksek kaliteli, doğru içerik üretin
-- Gerekli yerlerde kaynak ekleyin
+- Follow the standards in [STYLE_GUIDE.md](STYLE_GUIDE.md) file
+- Produce high-quality, accurate content
+- Add sources where necessary
 
-### 2. Commit Mesajları / Commit Messages
+### 2. Commit Messages
 
-Açıklayıcı ve kısa commit mesajları yazın:
+Write descriptive and concise commit messages:
 
 ```
 feat(cybersecurity): Add defensive security best practices article
@@ -119,7 +115,7 @@ feat(cybersecurity): Add defensive security best practices article
 Closes #123
 ```
 
-**Commit Mesaj Formatı:**
+**Commit Message Format:**
 ```
 <type>(<scope>): <subject>
 
@@ -129,20 +125,20 @@ Closes #123
 ```
 
 **Commit Types:**
-- `feat`: Yeni içerik/özellik
-- `fix`: Hata düzeltmesi
-- `docs`: Dokümantasyon
-- `style`: Formatlama
-- `refactor`: Kod/içerik yeniden yapılandırma
-- `update`: Güncelleme
+- `feat`: New content/feature
+- `fix`: Bug fix
+- `docs`: Documentation
+- `style`: Formatting
+- `refactor`: Code/content restructuring
+- `update`: Update
 
-### 3. Test Edin
+### 3. Test
 
-- Markdown syntax kontrolü yapın
-- Link'lerin çalıştığından emin olun
-- Formatlamanın doğru olduğunu kontrol edin
+- Check Markdown syntax
+- Ensure links work
+- Verify formatting is correct
 
-### 4. Push Edin ve PR Açın
+### 4. Push and Open PR
 
 ```bash
 git add .
@@ -150,106 +146,105 @@ git commit -m "feat(category): Description"
 git push origin feature/your-contribution-name
 ```
 
-Sonra GitHub'da Pull Request oluşturun.
+Then create a Pull Request on GitHub.
 
 ---
 
-## ✍️ Yazım Standartları / Writing Standards
+## ✍️ Writing Standards
 
-### Genel Kurallar
+### General Rules
 
-1. **Dil ve Ton**: Profesyonel, teknik, ancak anlaşılır
+1. **Language and Tone**: Professional, technical, but understandable
 2. **Format**: Markdown (.md)
-3. **Uzunluk**: Makaleler 500-3000 kelime arası ideal
-4. **Yapı**: Açık başlıklar, alt başlıklar, liste kullanımı
+3. **Length**: Articles ideally 500-3000 words
+4. **Structure**: Clear headings, subheadings, use of lists
 
-### İçerik Gereksinimleri
+### Content Requirements
 
-#### Her Makale İçermeli:
+#### Each Article Should Include:
 
 ```markdown
-# Makale Başlığı / Article Title
+# Article Title
 
-## Özet / Summary
-Kısa açıklama (2-3 cümle)
+## Summary
+Brief description (2-3 sentences)
 
-## Gereksinimler / Prerequisites
-- Gerekli bilgi/araçlar
-- Ön koşullar
+## Prerequisites
+- Required knowledge/tools
+- Prerequisites
 
-## İçerik / Content
-[Ana içerik burada]
+## Content
+[Main content here]
 
-## Örnekler / Examples
-[Kod örnekleri, senaryolar]
+## Examples
+[Code examples, scenarios]
 
-## Kaynaklar / References
+## References
 - [Link 1](url)
 - [Link 2](url)
 
-## İlgili Makaleler / Related Articles
-- [Makale 1](path)
-- [Makale 2](path)
+## Related Articles
+- [Article 1](path)
+- [Article 2](path)
 ```
 
-### Etik ve Yasal Gereksinimler
+### Ethical and Legal Requirements
 
-⚠️ **KRİTİK**: Siber güvenlik içerikleri için:
+⚠️ **CRITICAL**: For cybersecurity content:
 
-- ✅ Sadece **defansif** ve **etik hackleme** odaklı
-- ✅ **Eğitim amaçlı** olduğunu belirt
-- ✅ **Yasal uyarılar** ekle
-- ✅ **Yetki gerektirdiğini** vurgula
-- ❌ Exploit kodları veya saldırı araçları **YOK**
-- ❌ Yetkisiz erişim yöntemleri **YOK**
-
----
-
-## 🔍 İnceleme Süreci / Review Process
-
-### PR Göndermeden Önce Kontrol Listesi
-
-- [ ] [STYLE_GUIDE.md](STYLE_GUIDE.md) standartlarına uygun mu?
-- [ ] Markdown formatı doğru mu?
-- [ ] Yazım hatası var mı? (Spell-check yapıldı mı?)
-- [ ] Link'ler çalışıyor mu?
-- [ ] Görseller varsa, alt text eklenmiş mi?
-- [ ] Etik ve yasal uyarılar gerektiğinde eklenmiş mi?
-- [ ] Commit mesajları açıklayıcı mı?
-- [ ] "Özet" bölümü var mı?
-
-### İnceleme Aşamaları
-
-1. **Otomatik Kontroller**: CI/CD (eğer varsa)
-2. **İlk İnceleme**: Maintainer tarafından format kontrolü
-3. **Teknik İnceleme**: İçerik doğruluğu kontrolü
-4. **Nihai Onay**: Merge kararı
-
-### Geri Bildirim
-
-- İncelemeler yapıcı ve saygılı olacaktır
-- Her geri bildirim için açıklama yapılacaktır
-- Küçük değişiklikler için direkt düzeltme önerilebilir
+- ✅ Only **defensive** and **ethical hacking** focused
+- ✅ Indicate it is **for educational purposes**
+- ✅ Add **legal warnings**
+- ✅ Emphasize that **authorization is required**
+- ❌ NO exploit codes or attack tools
+- ❌ NO unauthorized access methods
 
 ---
 
-## 📚 Kaynaklar / Resources
+## 🔍 Review Process
 
-- [STYLE_GUIDE.md](STYLE_GUIDE.md) - Detaylı yazım standartları
-- [ROADMAP.md](ROADMAP.md) - Proje yol haritası
-- [Markdown Guide](https://www.markdownguide.org/) - Markdown referansı
+### Checklist Before Submitting PR
+
+- [ ] Does it comply with [STYLE_GUIDE.md](STYLE_GUIDE.md) standards?
+- [ ] Is Markdown format correct?
+- [ ] Are there spelling errors? (Spell-check done?)
+- [ ] Do links work?
+- [ ] If there are images, is alt text added?
+- [ ] Are ethical and legal warnings added when required?
+- [ ] Are commit messages descriptive?
+- [ ] Is there a "Summary" section?
+
+### Review Stages
+
+1. **Automated Checks**: CI/CD (if available)
+2. **Initial Review**: Format check by maintainer
+3. **Technical Review**: Content accuracy check
+4. **Final Approval**: Merge decision
+
+### Feedback
+
+- Reviews will be constructive and respectful
+- Explanations will be provided for each feedback
+- Direct fixes may be suggested for small changes
 
 ---
 
-## ❓ Sorular / Questions
+## 📚 Resources
 
-Katkıda bulunurken sorularınız olursa:
-
-1. [GitHub Discussions](https://github.com/Jonomer/fswiki/discussions) bölümüne bakın
-2. Yeni bir Discussion açın
-3. Issue oluşturun (kısa sorular için)
+- [STYLE_GUIDE.md](STYLE_GUIDE.md) - Detailed writing standards
+- [ROADMAP.md](ROADMAP.md) - Project roadmap
+- [Markdown Guide](https://www.markdownguide.org/) - Markdown reference
 
 ---
 
-**Teşekkürler! / Thank you for contributing! 🙏**
+## ❓ Questions
 
+If you have questions while contributing:
+
+1. Check the [GitHub Discussions](https://github.com/Jonomer/fswiki/discussions) section
+2. Open a new Discussion
+3. Create an Issue (for short questions)
+
+---
+
+**Thank you for contributing! 🙏**

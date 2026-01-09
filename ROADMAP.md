@@ -1,80 +1,76 @@
-# Yol Haritası / Roadmap
+# Roadmap
 
-FS DEV Knowledge Base projesinin gelecek planları ve hedefleri.
-
-Future plans and goals for the FS DEV Knowledge Base project.
+Future plans and goals for the FS Wiki project.
 
 ---
 
-## 🎯 Genel Vizyon / General Vision
-
-Uzun vadede, bu bilgi tabanının teknik profesyoneller için en güvenilir ve kapsamlı kaynaklardan biri olması hedeflenmektedir. İçerik kalitesi, organizasyon ve topluluk katkılarıyla sürekli büyüyen, sürdürülebilir bir ekosistem oluşturmak.
+## 🎯 General Vision
 
 The long-term goal is for this knowledge base to become one of the most reliable and comprehensive resources for technical professionals. We aim to create a sustainable ecosystem that continuously grows through content quality, organization, and community contributions.
 
 ---
 
-## 📅 Fazlar / Phases
+## 📅 Phases
 
-### Phase 1: Temel Altyapı ve İlk İçerik / Foundation & Initial Content (Q1-Q2 2024)
+### Phase 1: Foundation & Initial Content (Q1-Q2 2024)
 
-**Durum / Status:** 🔄 Devam Ediyor / In Progress
+**Status:** 🔄 In Progress
 
-#### Hedefler / Goals:
-- ✅ Repository yapısının oluşturulması
-- ✅ Dokümantasyon standartlarının belirlenmesi
-- 🔄 Her kategori için en az 5 temel makale
-- 🔄 README ve rehber dosyalarının tamamlanması
-- ⏳ Topluluk katkı mekanizmasının kurulması
+#### Goals:
+- ✅ Repository structure created
+- ✅ Documentation standards established
+- 🔄 At least 5 core articles for each category
+- 🔄 README and guide files completed
+- ⏳ Community contribution mechanism established
 
-#### Öncelikli Konular / Priority Topics:
+#### Priority Topics:
 
 **Cybersecurity:**
-- Defansif güvenlik temelleri
-- Ağ segmentasyonu
-- Güvenlik duvarı konfigürasyonu
-- Log analizi ve monitoring
+- Defensive security fundamentals
+- Network segmentation
+- Firewall configuration
+- Log analysis and monitoring
 
 **Software Development:**
-- Modern yazılım mimarileri
+- Modern software architectures
 - Git workflow best practices
-- CI/CD pipeline kurulumu
-- Code review standartları
+- CI/CD pipeline setup
+- Code review standards
 
 **Linux & Sysadmin:**
-- Sistem hardening temelleri
+- System hardening fundamentals
 - Docker containerization
-- Otomasyon script örnekleri
+- Automation script examples
 - Log management
 
 **Hardware & Electronics:**
-- Embedded systems giriş
-- Mikrodenetleyici seçimi
+- Embedded systems introduction
+- Microcontroller selection
 - PCB design basics
-- IoT güvenliği
+- IoT security
 
 **3D Printing:**
-- 3D modelleme temelleri
-- Filament karşılaştırması
-- Print optimizasyonu
-- Post-processing teknikleri
+- 3D modeling fundamentals
+- Filament comparison
+- Print optimization
+- Post-processing techniques
 
 ---
 
-### Phase 2: İçerik Genişletme / Content Expansion (Q3-Q4 2024)
+### Phase 2: Content Expansion (Q3-Q4 2024)
 
-**Durum / Status:** ⏳ Planlanıyor / Planned
+**Status:** ⏳ Planned
 
-#### Hedefler / Goals:
-- Her kategori için 20+ makale
-- İleri seviye konuların eklenmesi
-- Case study'lerin eklenmesi
-- Video içerik özetleri (opsiyonel)
-- Çoklu dil desteği (EN/TR)
+#### Goals:
+- 20+ articles for each category
+- Addition of advanced topics
+- Addition of case studies
+- Video content summaries (optional)
+- Multilingual support (EN/TR)
 
-#### Odak Alanları / Focus Areas:
+#### Focus Areas:
 
-- **Advanced Security**: Penetration testing metodolojileri (etik çerçevede), advanced threat detection
+- **Advanced Security**: Penetration testing methodologies (within ethical framework), advanced threat detection
 - **Architecture Patterns**: Microservices, event-driven architecture, distributed systems
 - **Cloud & DevOps**: Kubernetes advanced topics, infrastructure as code, multi-cloud strategies
 - **Embedded Security**: Secure boot, hardware attestation, side-channel attacks (defensive)
@@ -82,154 +78,153 @@ The long-term goal is for this knowledge base to become one of the most reliable
 
 ---
 
-### Phase 3: Topluluk ve Araçlar / Community & Tools (2025)
+### Phase 3: Community & Tools (2025)
 
-**Durum / Status:** 💡 Planlanıyor / Planned
+**Status:** 💡 Planned
 
-#### Hedefler / Goals:
-- Aktif katkıda bulunanlar ağı oluşturma
-- Düzenli içerik güncellemeleri (aylık review)
-- Arama ve navigasyon iyileştirmeleri
-- Interactive örnekler ve kod playground'ları
-- RSS feed ve newsletter
+#### Goals:
+- Build active contributor network
+- Regular content updates (monthly review)
+- Search and navigation improvements
+- Interactive examples and code playgrounds
+- RSS feed and newsletter
 
-#### Teknik İyileştirmers / Technical Improvements:
+#### Technical Improvements:
 
-- **Search Functionality**: Full-text search implementasyonu
-- **Versioning**: İçerik versiyonlama sistemi
-- **Validation**: Otomatik içerik doğrulama araçları
-- **Analytics**: İçerik performans metrikleri
-- **Translation System**: Çoklu dil desteği altyapısı
-
----
-
-### Phase 4: Platform Geliştirme / Platform Development (2025+)
-
-**Durum / Status:** 💭 Uzun Vadeli / Long-term
-
-#### Hedefler / Goals:
-- Özel web arayüzü (opsiyonel)
-- API endpoint'leri
-- Community voting sistemi
-- Expert verification mekanizması
-- Certification programı (opsiyonel)
+- **Search Functionality**: Full-text search implementation
+- **Versioning**: Content versioning system
+- **Validation**: Automated content validation tools
+- **Analytics**: Content performance metrics
+- **Translation System**: Multilingual support infrastructure
 
 ---
 
-## 🔄 Sürekli İyileştirmeler / Continuous Improvements
+### Phase 4: Platform Development (2025+)
 
-### Düzenli Görevler / Regular Tasks
+**Status:** 💭 Long-term
 
-**Aylık / Monthly:**
-- Yeni içerik review'ü
-- Broken link kontrolü
-- Güncel olmayan içerik güncellemesi
-- Topluluk geri bildirimi değerlendirmesi
-
-**Üç Aylık / Quarterly:**
-- Yol haritası güncellemesi
-- Kategori yapısı review'ü
-- İçerik gap analizi
-- Katkıda bulunanlar tanıtımı
-
-**Yıllık / Yearly:**
-- Büyük ölçekli yapısal değişiklikler
-- Yeni kategori değerlendirmesi
-- Stratejik planlama
-- Topluluk anketi
+#### Goals:
+- Custom web interface (optional)
+- API endpoints
+- Community voting system
+- Expert verification mechanism
+- Certification program (optional)
 
 ---
 
-## 🎓 İçerik Öncelikleri / Content Priorities
+## 🔄 Continuous Improvements
 
-### Yüksek Öncelik / High Priority
+### Regular Tasks
 
-1. **Yeni Başlayanlar İçin Rehberler**: Her kategoride "Başlangıç" serisi
-2. **Best Practices**: Her alanda kanıtlanmış yöntemler
-3. **Troubleshooting Guides**: Yaygın sorunlar ve çözümleri
-4. **Security Hardening**: Güvenlik odaklı yapılandırmalar
+**Monthly:**
+- New content review
+- Broken link check
+- Update outdated content
+- Community feedback evaluation
 
-### Orta Öncelik / Medium Priority
+**Quarterly:**
+- Roadmap update
+- Category structure review
+- Content gap analysis
+- Contributor highlights
 
-1. **Case Studies**: Gerçek dünya uygulama örnekleri
-2. **Tool Comparisons**: Benzer araçların karşılaştırması
-3. **Performance Tuning**: Optimizasyon rehberleri
-4. **Migration Guides**: Teknoloji geçiş rehberleri
-
-### Düşük Öncelik (Opsiyonel) / Low Priority (Optional)
-
-1. **Video Transkriptleri**: Video içeriklerin yazılı özetleri
-2. **Interactive Tutorials**: Etkileşimli öğreticiler
-3. **Community Spotlights**: Topluluk başarı hikayeleri
-4. **Expert Interviews**: Uzman görüşmeleri (opsiyonel)
-
----
-
-## 🤝 Topluluk Hedefleri / Community Goals
-
-### 2024 Hedefleri
-
-- 🌟 100+ GitHub yıldızı
-- 👥 10+ aktif katkıda bulunan
-- 📝 50+ yayınlanmış makale
-- 💬 Aktif discussion forum
-
-### 2025 Hedefleri
-
-- 🌟 500+ GitHub yıldızı
-- 👥 25+ aktif katkıda bulunan
-- 📝 150+ yayınlanmış makale
-- 🌍 Çoklu dil desteği (EN, TR, +)
+**Yearly:**
+- Large-scale structural changes
+- New category evaluation
+- Strategic planning
+- Community survey
 
 ---
 
-## 📊 Metrikler / Metrics
+## 🎓 Content Priorities
 
-Takip edilecek önemli metrikler:
+### High Priority
 
-**İçerik Metrikleri:**
-- Toplam makale sayısı
-- Kategori başına makale sayısı
-- Ortalama makale uzunluğu
-- Güncellenme sıklığı
+1. **Beginner Guides**: "Getting Started" series in each category
+2. **Best Practices**: Proven methods in each area
+3. **Troubleshooting Guides**: Common problems and solutions
+4. **Security Hardening**: Security-focused configurations
 
-**Topluluk Metrikleri:**
-- Aktif katkıda bulunan sayısı
-- PR sayısı ve kabul oranı
-- Issue çözüm süresi
-- GitHub yıldız ve fork sayısı
+### Medium Priority
 
-**Kalite Metrikleri:**
-- İnceleme süresi
-- Geri dönen PR oranı
-- Kullanıcı geri bildirim skorları
-- Broken link sayısı
+1. **Case Studies**: Real-world application examples
+2. **Tool Comparisons**: Comparison of similar tools
+3. **Performance Tuning**: Optimization guides
+4. **Migration Guides**: Technology transition guides
 
----
+### Low Priority (Optional)
 
-## 🚧 Bilinen Eksikler / Known Gaps
-
-Bu konular öncelikli olarak ele alınacaktır:
-
-1. ⚠️ **Video İçerik Eksikliği**: Yazılı içerik ağırlıklı, video içerik sınırlı
-2. ⚠️ **Interactive Örnekler**: Statik içerik çoğunlukla, interaktif örnekler az
-3. ⚠️ **Multilingual Support**: Şu an EN/TR, diğer diller planlanıyor
-4. ⚠️ **Mobile Optimization**: Mobil okuma deneyimi iyileştirilebilir
-5. ⚠️ **Search Functionality**: Gelişmiş arama özelliği eklenmeli
+1. **Video Transcripts**: Written summaries of video content
+2. **Interactive Tutorials**: Interactive tutorials
+3. **Community Spotlights**: Community success stories
+4. **Expert Interviews**: Expert interviews (optional)
 
 ---
 
-## 💡 Öneriler ve Geri Bildirim / Suggestions & Feedback
+## 🤝 Community Goals
 
-Yol haritası sürekli güncellenmektedir. Önerileriniz için:
+### 2024 Goals
 
-- [GitHub Discussions](https://github.com/Jonomer/fswiki/discussions) - Genel öneriler
-- [GitHub Issues](https://github.com/Jonomer/fswiki/issues) - Spesifik konular
-- Community voting - Öncelik belirleme
+- 🌟 100+ GitHub stars
+- 👥 10+ active contributors
+- 📝 50+ published articles
+- 💬 Active discussion forum
+
+### 2025 Goals
+
+- 🌟 500+ GitHub stars
+- 👥 25+ active contributors
+- 📝 150+ published articles
+- 🌍 Multilingual support (EN, TR, +)
 
 ---
 
-**Son Güncelleme / Last Updated:** 2024 Q1
+## 📊 Metrics
 
-**Sonraki Review / Next Review:** 2024 Q2
+Important metrics to track:
 
+**Content Metrics:**
+- Total article count
+- Articles per category
+- Average article length
+- Update frequency
+
+**Community Metrics:**
+- Number of active contributors
+- PR count and acceptance rate
+- Issue resolution time
+- GitHub stars and fork count
+
+**Quality Metrics:**
+- Review time
+- Returned PR rate
+- User feedback scores
+- Broken link count
+
+---
+
+## 🚧 Known Gaps
+
+These topics will be prioritized:
+
+1. ⚠️ **Video Content Gap**: Text-heavy content, limited video content
+2. ⚠️ **Interactive Examples**: Mostly static content, few interactive examples
+3. ⚠️ **Multilingual Support**: Currently EN/TR, other languages planned
+4. ⚠️ **Mobile Optimization**: Mobile reading experience can be improved
+5. ⚠️ **Search Functionality**: Advanced search feature should be added
+
+---
+
+## 💡 Suggestions & Feedback
+
+The roadmap is continuously updated. For your suggestions:
+
+- [GitHub Discussions](https://github.com/Jonomer/fswiki/discussions) - General suggestions
+- [GitHub Issues](https://github.com/Jonomer/fswiki/issues) - Specific topics
+- Community voting - Priority setting
+
+---
+
+**Last Updated:** 2024 Q1
+
+**Next Review:** 2024 Q2
