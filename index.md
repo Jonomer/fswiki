@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Home
+title: ""
 permalink: /
 description: "Professional Technical Knowledge Base"
 ---
 
-<div align="center">
+<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem 2rem; border-radius: 12px; margin: 2rem 0; color: white;">
 
 # 🔍 FS Wiki
 
