@@ -1,6 +1,7 @@
 ---
-layout: home
-title: FS Wiki
+layout: page
+title: Home
+permalink: /
 description: "Professional Technical Knowledge Base"
 ---
 

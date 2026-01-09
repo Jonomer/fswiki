@@ -8,25 +8,25 @@ baseurl: "/fswiki"  # Repository name as subdirectory
 lang: en
 locale: en_US
 
-# Yazar Bilgileri / Author Info
+# Author Info
 author:
   name: "FS DEV Community"
   email: ""
   github: "Jonomer"
 
-# Tema Ayarları / Theme Settings
+# Theme Settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Build Ayarları / Build Settings
+# Build Settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Exclude / Hariç Tutulacaklar
+# Exclude
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -42,11 +42,11 @@ exclude:
   - LICENSE
   - setup-guides
 
-# Include / Dahil Edilecekler
+# Include
 include:
   - _pages
 
-# Navigation / Navigasyon
+# Navigation
 header_pages:
   - index.md
   - about.md
@@ -56,11 +56,11 @@ header_pages:
 social:
   github_username: Jonomer
 
-# Minima Tema Ayarları
+# Minima Theme Settings
 minima:
   social_links:
     github: Jonomer
 
-# SEO Ayarları
+# SEO Settings
 google_analytics: # Google Analytics ID (opsiyonel)
 
