@@ -358,10 +358,13 @@ div[align="center"] {
   }
 }
 
-// Remove all gradients from index.md center div
+// Center aligned divs - clean styling
 div[align="center"] {
   background: $bg-light !important;
   border: 1px solid $border-color !important;
+  padding: 3rem 2rem !important;
+  margin: 2rem 0 !important;
+  border-radius: 8px !important;
 }
 
 // Clean spacing
