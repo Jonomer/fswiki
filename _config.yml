@@ -1,8 +1,8 @@
 # Site Settings
 title: "FS Wiki"
 description: "Professional Technical Knowledge Base"
-url: "https://fswiki.github.io"
-baseurl: ""  # If using username.github.io/repo-name: "/fswiki"
+url: "https://Jonomer.github.io"
+baseurl: "/fswiki"  # Repository name as subdirectory
 
 # Language Settings
 lang: en
