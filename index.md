@@ -1,21 +1,22 @@
 ---
 layout: page
-title: "Home"
+title: "FS Wiki"
 permalink: /
-description: "Professional Technical Knowledge Base"
+description: "Professional Technical Knowledge Base - A comprehensive knowledge repository for cybersecurity, software development, system administration, hardware, and practical engineering."
 ---
 
-<div align="center">
-
-# 🔍 FS Wiki
-
-**Professional Technical Knowledge Base**
-
-*A comprehensive, well-structured knowledge repository for cybersecurity, software development, system administration, hardware, and practical engineering.*
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Jonomer/fswiki/blob/main/LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/Jonomer/fswiki/blob/main/CONTRIBUTING.md)
-
+<div class="hero-section">
+  <h1>🔍 FS Wiki</h1>
+  <p class="hero-subtitle">Professional Technical Knowledge Base</p>
+  <p class="hero-description">A comprehensive, well-structured knowledge repository for cybersecurity, software development, system administration, hardware, and practical engineering.</p>
+  <div class="hero-badges">
+    <a href="https://github.com/Jonomer/fswiki/blob/main/LICENSE" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+    </a>
+    <a href="https://github.com/Jonomer/fswiki/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome">
+    </a>
+  </div>
 </div>
 
 ---
@@ -36,20 +37,37 @@ description: "Professional Technical Knowledge Base"
 
 ## 🗂️ Categories
 
-### 🔒 [Cybersecurity](/cybersecurity/)
-Defensive security, ethical hacking, network security, and incident response.
-
-### 💻 [Software Development](/software-development/)
-Modern software architectures, best practices, DevOps, and testing strategies.
-
-### 🐧 [Linux & System Administration](/linux-sysadmin/)
-System configuration, containerization, automation, and monitoring.
-
-### 🔌 [Hardware & Electronics](/hardware-electronics/)
-Embedded systems, microcontrollers, PCB design, and IoT.
-
-### 🖨️ [3D Printing & Engineering](/3d-printing/)
-3D modeling, filament selection, post-processing, and prototyping.
+<div class="category-grid">
+  <a href="/cybersecurity/" class="category-item">
+    <span class="category-icon">🔒</span>
+    <h3>Cybersecurity</h3>
+    <p>Defensive security, ethical hacking, network security, and incident response.</p>
+  </a>
+  
+  <a href="/software-development/" class="category-item">
+    <span class="category-icon">💻</span>
+    <h3>Software Development</h3>
+    <p>Modern software architectures, best practices, DevOps, and testing strategies.</p>
+  </a>
+  
+  <a href="/linux-sysadmin/" class="category-item">
+    <span class="category-icon">🐧</span>
+    <h3>Linux & System Administration</h3>
+    <p>System configuration, containerization, automation, and monitoring.</p>
+  </a>
+  
+  <a href="/hardware-electronics/" class="category-item">
+    <span class="category-icon">🔌</span>
+    <h3>Hardware & Electronics</h3>
+    <p>Embedded systems, microcontrollers, PCB design, and IoT.</p>
+  </a>
+  
+  <a href="/3d-printing/" class="category-item">
+    <span class="category-icon">🖨️</span>
+    <h3>3D Printing & Engineering</h3>
+    <p>3D modeling, filament selection, post-processing, and prototyping.</p>
+  </a>
+</div>
 
 ---
 
