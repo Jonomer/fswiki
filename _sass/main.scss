@@ -89,6 +89,19 @@ body {
   
   &:hover {
     color: var(--primary);
+    transform: translateY(-1px);
+  }
+  
+  .logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    transition: var(--transition);
+    filter: brightness(0) invert(1);
+    
+    &:hover {
+      transform: scale(1.1);
+    }
   }
   
   .logo-icon {

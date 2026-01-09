@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ '/assets/images/logo.png' | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/logo.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/logo.png' | relative_url }}">
+    
     {% feed_meta %}
 </head>
 <body>
@@ -23,7 +28,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="{{ '/' | relative_url }}" class="nav-logo">
-                <span class="logo-icon">🔍</span>
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="logo-img">
                 <span class="logo-text">{{ site.title }}</span>
             </a>
             <button class="nav-toggle" aria-label="Toggle navigation">
