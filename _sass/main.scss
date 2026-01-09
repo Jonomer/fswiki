@@ -51,16 +51,33 @@ body {
   }
 }
 
-// Main Content Area
+// Main Content Area - Minima Compatible
 .wrapper {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   background: $white;
 }
 
 .page-content {
   padding: 2rem 0;
+  
+  .wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+// Ensure content is visible
+main {
+  display: block !important;
+  
+  .page-content {
+    display: block !important;
+    visibility: visible !important;
+  }
 }
 
 // Headings - Clean Typography

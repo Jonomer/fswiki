@@ -11,8 +11,6 @@ locale: en_US
 # Author Info
 author:
   name: "FS DEV Community"
-  email: ""
-  github: "Jonomer"
 
 # Theme Settings
 theme: minima
