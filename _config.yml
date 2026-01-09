@@ -8,9 +8,7 @@ baseurl: "/fswiki"  # Repository name as subdirectory
 lang: en
 locale: en_US
 
-# Author Info
-author:
-  name: "FS DEV Community"
+# Author Info (removed to clean footer)
 
 # Theme Settings
 theme: minima
