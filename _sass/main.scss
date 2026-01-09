@@ -80,34 +80,39 @@ body {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 0.875rem;
-  font-size: 1.625rem;
-  font-weight: 700;
-  color: var(--text-primary);
   text-decoration: none;
   transition: var(--transition);
+  padding: 0.25rem;
   
   &:hover {
-    color: var(--primary);
-    transform: translateY(-1px);
-  }
-  
-  .logo-img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    transition: var(--transition);
-    border-radius: var(--radius-sm);
-    display: block;
+    transform: translateY(-2px);
     
-    @media (max-width: 768px) {
-      width: 32px;
-      height: 32px;
+    .logo-img {
+      transform: scale(1.05);
     }
   }
   
-  &:hover .logo-img {
-    transform: scale(1.1);
+  .logo-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: var(--transition);
+    display: block;
+    
+    @media (max-width: 1024px) {
+      width: 50px;
+      height: 50px;
+    }
+    
+    @media (max-width: 768px) {
+      width: 45px;
+      height: 45px;
+    }
+    
+    @media (max-width: 480px) {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 
