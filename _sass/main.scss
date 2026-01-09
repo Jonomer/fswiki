@@ -93,19 +93,21 @@ body {
   }
   
   .logo-img {
+    width: 40px;
     height: 40px;
-    width: auto;
     object-fit: contain;
     transition: var(--transition);
-    filter: brightness(0) invert(1);
+    border-radius: var(--radius-sm);
+    display: block;
     
-    &:hover {
-      transform: scale(1.1);
+    @media (max-width: 768px) {
+      width: 32px;
+      height: 32px;
     }
   }
   
-  .logo-icon {
-    font-size: 2rem;
+  &:hover .logo-img {
+    transform: scale(1.1);
   }
 }
 
